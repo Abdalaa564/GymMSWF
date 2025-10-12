@@ -14,7 +14,7 @@ namespace GymMSWF
         public static GymContextDB CreateDbContext()
         {
             var configuration = new ConfigurationBuilder()   //Microsoft.Extensions.Configuration.Json
-                .SetBasePath(Directory.GetCurrentDirectory())
+                .SetBasePath(Directory.GetCurrentDirectory()) //Microsoft.Extensions.Configuration
                 .AddJsonFile("appsettings.json", optional: false)
                 .Build();
 

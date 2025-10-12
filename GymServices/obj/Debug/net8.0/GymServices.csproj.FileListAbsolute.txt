@@ -13,3 +13,4 @@ G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.dll
 G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\refint\GymServices.dll
 G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.pdb
 G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\ref\GymServices.dll
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.sourcelink.json
