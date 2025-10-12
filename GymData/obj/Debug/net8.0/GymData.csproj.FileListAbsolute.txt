@@ -12,3 +12,4 @@ G:\A.O.C\ITI\C#\GymMSWF\GymData\obj\Debug\net8.0\refint\GymData.dll
 G:\A.O.C\ITI\C#\GymMSWF\GymData\obj\Debug\net8.0\GymData.pdb
 G:\A.O.C\ITI\C#\GymMSWF\GymData\obj\Debug\net8.0\GymData.genruntimeconfig.cache
 G:\A.O.C\ITI\C#\GymMSWF\GymData\obj\Debug\net8.0\ref\GymData.dll
+G:\A.O.C\ITI\C#\GymMSWF\GymData\obj\Debug\net8.0\GymData.sourcelink.json

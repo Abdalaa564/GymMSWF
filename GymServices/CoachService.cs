@@ -18,14 +18,14 @@ namespace GymServices
             _context = context;
         }
 
-        public async Task<List<Coach>> GetAllCoaches()
+        public async Task<List<Instructor>> GetAllCoaches()
         {
-            return await _context.Coaches.ToListAsync();
+            return await _context.instructors.ToListAsync();
         }
 
-        public async Task<List<Coach>> GetCoaches( int id)
+        public async Task<List<Instructor>> GetCoaches( int id)
         {
-            return await _context.Coaches.ToListAsync();
+            return await _context.instructors.ToListAsync();
         }
     }
 }

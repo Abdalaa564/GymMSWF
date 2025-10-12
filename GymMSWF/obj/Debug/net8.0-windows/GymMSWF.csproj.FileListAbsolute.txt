@@ -151,3 +151,13 @@ G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.pdb
 G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.genruntimeconfig.cache
 G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\ref\GymMSWF.dll
 G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.rg.resources
+G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\bin\Debug\net8.0-windows\CircularProgressBar.dll
+G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
+G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\bin\Debug\net8.0-windows\Guna.UI2.dll
+G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\bin\Debug\net8.0-windows\System.Management.dll
+G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\bin\Debug\net8.0-windows\WinFormAnimation.dll
+G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.Dashboard.resources
+G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.Properties.Resources.resources
+G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.sourcelink.json
+G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\bin\Debug\net8.0-windows\appsettings.json

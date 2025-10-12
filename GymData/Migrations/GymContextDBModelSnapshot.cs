@@ -22,234 +22,238 @@ namespace GymData.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("GymData.Models.Coach", b =>
+            modelBuilder.Entity("GymData.Models.Client", b =>
                 {
-                    b.Property<int>("Cid")
+                    b.Property<int>("client_id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Cid"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("client_id"));
 
-                    b.Property<string>("CAddress")
+                    b.Property<string>("client_gender")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("CDOB")
+                    b.Property<string>("client_name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("dateofBirth")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CExperience")
+                    b.Property<DateTime>("endDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("ispaid")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("pack_id")
                         .HasColumnType("int");
 
-                    b.Property<string>("CName")
+                    b.Property<string>("phone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("CPass")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("startDate")
+                        .HasColumnType("datetime2");
 
-                    b.Property<string>("CPhone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.HasKey("client_id");
 
-                    b.HasKey("Cid");
+                    b.HasIndex("pack_id");
 
-                    b.ToTable("Coaches");
+                    b.ToTable("client");
                 });
 
-            modelBuilder.Entity("GymData.Models.Finance", b =>
+            modelBuilder.Entity("GymData.Models.Employee", b =>
                 {
-                    b.Property<int>("BillId")
+                    b.Property<int>("rep_id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BillId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("rep_id"));
 
-                    b.Property<int?>("AgentId")
+                    b.Property<string>("rep_address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("rep_birthDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("rep_gender")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("rep_name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("rep_pass")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("rep_phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("rep_id");
+
+                    b.ToTable("employees");
+                });
+
+            modelBuilder.Entity("GymData.Models.Instructor", b =>
+                {
+                    b.Property<int>("ins_id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<decimal>("BAmount")
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ins_id"));
+
+                    b.Property<DateTime>("ins_birth")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ins_email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ins_gender")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ins_img")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ins_name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ins_pass")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ins_phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ins_id");
+
+                    b.ToTable("instructors");
+                });
+
+            modelBuilder.Entity("GymData.Models.Package", b =>
+                {
+                    b.Property<int>("pack_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("pack_id"));
+
+                    b.Property<int>("ins_id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("pack_desc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("pack_img")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("pack_price")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<DateTime>("BDate")
-                        .HasColumnType("datetime2");
+                    b.Property<int>("pack_sessionsCount")
+                        .HasColumnType("int");
 
-                    b.Property<string>("BPeriod")
+                    b.Property<string>("pack_title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("MemberId")
-                        .HasColumnType("int");
+                    b.HasKey("pack_id");
 
-                    b.HasKey("BillId");
+                    b.HasIndex("ins_id");
 
-                    b.HasIndex("AgentId");
-
-                    b.HasIndex("MemberId");
-
-                    b.ToTable("Finances");
+                    b.ToTable("package");
                 });
 
-            modelBuilder.Entity("GymData.Models.Member", b =>
+            modelBuilder.Entity("GymData.Models.Payment", b =>
                 {
-                    b.Property<int>("Mid")
+                    b.Property<int>("payment_id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Mid"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("payment_id"));
 
-                    b.Property<int?>("MCoachId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("MDOB")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("MDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("MGen")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("MMembershipId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("MName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MPhone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MStatus")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MTiming")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Mid");
-
-                    b.HasIndex("MCoachId");
-
-                    b.HasIndex("MMembershipId");
-
-                    b.ToTable("Members");
-                });
-
-            modelBuilder.Entity("GymData.Models.Membership", b =>
-                {
-                    b.Property<int>("MShipId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MShipId"));
-
-                    b.Property<decimal>("MCost")
+                    b.Property<decimal>("amount")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("MDuration")
+                    b.Property<int>("client_id")
                         .HasColumnType("int");
 
-                    b.Property<string>("MGoal")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("MShipId");
-
-                    b.ToTable("Memberships");
-                });
-
-            modelBuilder.Entity("GymData.Models.Receptionist", b =>
-                {
-                    b.Property<int>("Rsccptid")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Rsccptid"));
-
-                    b.Property<string>("RecepAdd")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("RecepDOB")
+                    b.Property<DateTime>("created_at")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("RecepGen")
+                    b.Property<string>("payment_status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("RecepName")
+                    b.Property<string>("payment_type")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("RecepPass")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.HasKey("payment_id");
 
-                    b.Property<string>("RecepPhone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.HasIndex("client_id");
 
-                    b.HasKey("Rsccptid");
-
-                    b.ToTable("Receptionists");
+                    b.ToTable("payment");
                 });
 
-            modelBuilder.Entity("GymData.Models.Finance", b =>
+            modelBuilder.Entity("GymData.Models.Client", b =>
                 {
-                    b.HasOne("GymData.Models.Receptionist", "Agent")
-                        .WithMany("Finances")
-                        .HasForeignKey("AgentId");
+                    b.HasOne("GymData.Models.Package", "Package")
+                        .WithMany("Members")
+                        .HasForeignKey("pack_id")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
-                    b.HasOne("GymData.Models.Member", "Member")
-                        .WithMany("Finances")
-                        .HasForeignKey("MemberId");
-
-                    b.Navigation("Agent");
-
-                    b.Navigation("Member");
+                    b.Navigation("Package");
                 });
 
-            modelBuilder.Entity("GymData.Models.Member", b =>
+            modelBuilder.Entity("GymData.Models.Package", b =>
                 {
-                    b.HasOne("GymData.Models.Coach", "MCoach")
-                        .WithMany("Members")
-                        .HasForeignKey("MCoachId");
+                    b.HasOne("GymData.Models.Instructor", "Instructor")
+                        .WithMany("Packages")
+                        .HasForeignKey("ins_id")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
-                    b.HasOne("GymData.Models.Membership", "MMembership")
-                        .WithMany("Members")
-                        .HasForeignKey("MMembershipId");
-
-                    b.Navigation("MCoach");
-
-                    b.Navigation("MMembership");
+                    b.Navigation("Instructor");
                 });
 
-            modelBuilder.Entity("GymData.Models.Coach", b =>
+            modelBuilder.Entity("GymData.Models.Payment", b =>
+                {
+                    b.HasOne("GymData.Models.Client", "Client")
+                        .WithMany("Payments")
+                        .HasForeignKey("client_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Client");
+                });
+
+            modelBuilder.Entity("GymData.Models.Client", b =>
+                {
+                    b.Navigation("Payments");
+                });
+
+            modelBuilder.Entity("GymData.Models.Instructor", b =>
+                {
+                    b.Navigation("Packages");
+                });
+
+            modelBuilder.Entity("GymData.Models.Package", b =>
                 {
                     b.Navigation("Members");
-                });
-
-            modelBuilder.Entity("GymData.Models.Member", b =>
-                {
-                    b.Navigation("Finances");
-                });
-
-            modelBuilder.Entity("GymData.Models.Membership", b =>
-                {
-                    b.Navigation("Members");
-                });
-
-            modelBuilder.Entity("GymData.Models.Receptionist", b =>
-                {
-                    b.Navigation("Finances");
                 });
 #pragma warning restore 612, 618
         }
