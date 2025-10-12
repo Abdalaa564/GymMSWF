@@ -1,0 +1,15 @@
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\bin\Debug\net8.0\GymServices.deps.json
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\bin\Debug\net8.0\GymServices.dll
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\bin\Debug\net8.0\GymServices.pdb
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\bin\Debug\net8.0\GymData.dll
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\bin\Debug\net8.0\GymData.pdb
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.csproj.AssemblyReference.cache
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.GeneratedMSBuildEditorConfig.editorconfig
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.AssemblyInfoInputs.cache
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.AssemblyInfo.cs
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.csproj.CoreCompileInputs.cache
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\GymServi.F4757868.Up2Date
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.dll
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\refint\GymServices.dll
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.pdb
+G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\ref\GymServices.dll
