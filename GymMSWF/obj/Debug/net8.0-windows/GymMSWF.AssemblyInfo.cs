@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GymMSWF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea479fc6f6a6ed30356db5f225e8e56fcfd00f30")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+081d2dcc32c90179e3993c262584d4fe96af34ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("GymMSWF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GymMSWF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

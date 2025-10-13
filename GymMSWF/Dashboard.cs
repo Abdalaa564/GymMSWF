@@ -17,10 +17,23 @@ namespace GymMSWF
             InitializeComponent();
         }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
+        public void LoadPage(UserControl page)
         {
-
+            panelDashboard.Controls.Clear();
+            page.Dock = DockStyle.Fill;
+            panelDashboard.Controls.Add(page);
         }
+
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            LoadPage(new Dashboardd());
+        }
+
+        private void btnAbout_Click(object sender, EventArgs e)
+        {
+            LoadPage(new About());
+        }
+
 
     }
 }

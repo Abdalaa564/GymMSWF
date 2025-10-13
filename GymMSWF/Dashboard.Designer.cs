@@ -28,530 +28,471 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel1 = new Panel();
-            panel7 = new Panel();
-            label11 = new Label();
-            label13 = new Label();
-            iconButton13 = new FontAwesome.Sharp.IconButton();
-            panel6 = new Panel();
-            button1 = new Button();
-            label15 = new Label();
-            iconButton12 = new FontAwesome.Sharp.IconButton();
-            panel5 = new Panel();
-            panel4 = new Panel();
-            label7 = new Label();
-            iconButton10 = new FontAwesome.Sharp.IconButton();
-            label8 = new Label();
-            label9 = new Label();
-            panel2 = new Panel();
-            label4 = new Label();
-            iconButton9 = new FontAwesome.Sharp.IconButton();
-            label5 = new Label();
-            label6 = new Label();
-            panel3 = new Panel();
-            label3 = new Label();
-            iconButton8 = new FontAwesome.Sharp.IconButton();
-            label1 = new Label();
-            label2 = new Label();
-            panelSidebar = new Panel();
-            iconButton7 = new FontAwesome.Sharp.IconButton();
-            iconButton6 = new FontAwesome.Sharp.IconButton();
-            iconButton5 = new FontAwesome.Sharp.IconButton();
-            iconButton4 = new FontAwesome.Sharp.IconButton();
+            panel8 = new Panel();
+            panel12 = new Panel();
+            label16 = new Label();
             iconButton3 = new FontAwesome.Sharp.IconButton();
-            iconButton2 = new FontAwesome.Sharp.IconButton();
-            iconButton1 = new FontAwesome.Sharp.IconButton();
+            label17 = new Label();
+            label18 = new Label();
+            panel14 = new Panel();
+            label22 = new Label();
+            iconButton5 = new FontAwesome.Sharp.IconButton();
+            label23 = new Label();
+            label24 = new Label();
+            panel13 = new Panel();
+            label19 = new Label();
+            iconButton4 = new FontAwesome.Sharp.IconButton();
+            label20 = new Label();
+            label21 = new Label();
+            panelDashboard = new Panel();
+            aa = new FontAwesome.Sharp.IconButton();
+            panelSidebar = new Panel();
+            pictureBox1 = new PictureBox();
+            btnLogout = new FontAwesome.Sharp.IconButton();
+            btnAbout = new FontAwesome.Sharp.IconButton();
+            btnFAQ = new FontAwesome.Sharp.IconButton();
+            btnPayments = new FontAwesome.Sharp.IconButton();
+            btnMemberShips = new FontAwesome.Sharp.IconButton();
+            btnInstructors = new FontAwesome.Sharp.IconButton();
+            btnClients = new FontAwesome.Sharp.IconButton();
+            btnPackages = new FontAwesome.Sharp.IconButton();
             btnDashboard = new FontAwesome.Sharp.IconButton();
-            panel1.SuspendLayout();
-            panel7.SuspendLayout();
-            panel6.SuspendLayout();
-            panel4.SuspendLayout();
-            panel2.SuspendLayout();
-            panel3.SuspendLayout();
+            panel8.SuspendLayout();
+            panel12.SuspendLayout();
+            panel14.SuspendLayout();
+            panel13.SuspendLayout();
+            panelDashboard.SuspendLayout();
             panelSidebar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // panel1
+            // panel8
             // 
-            panel1.BackColor = Color.FromArgb(49, 52, 67);
-            panel1.Controls.Add(panel7);
-            panel1.Controls.Add(panel6);
-            panel1.Controls.Add(panel5);
-            panel1.Controls.Add(panel4);
-            panel1.Controls.Add(panel2);
-            panel1.Controls.Add(panel3);
-            panel1.Location = new Point(147, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(793, 514);
-            panel1.TabIndex = 0;
+            panel8.BackColor = Color.FromArgb(49, 52, 67);
+            panel8.Controls.Add(panel12);
+            panel8.Controls.Add(panel14);
+            panel8.Controls.Add(panel13);
+            panel8.Location = new Point(0, 1);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(793, 514);
+            panel8.TabIndex = 10;
             // 
-            // panel7
+            // panel12
             // 
-            panel7.BackColor = Color.WhiteSmoke;
-            panel7.Controls.Add(label11);
-            panel7.Controls.Add(label13);
-            panel7.Controls.Add(iconButton13);
-            panel7.Location = new Point(18, 222);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(267, 289);
-            panel7.TabIndex = 9;
+            panel12.BackColor = Color.FromArgb(39, 41, 54);
+            panel12.Controls.Add(label16);
+            panel12.Controls.Add(iconButton3);
+            panel12.Controls.Add(label17);
+            panel12.Controls.Add(label18);
+            panel12.Location = new Point(481, 37);
+            panel12.Name = "panel12";
+            panel12.Size = new Size(209, 103);
+            panel12.TabIndex = 8;
             // 
-            // label11
+            // label16
             // 
-            label11.AutoSize = true;
-            label11.BackColor = Color.WhiteSmoke;
-            label11.Cursor = Cursors.Hand;
-            label11.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label11.ForeColor = Color.Black;
-            label11.Location = new Point(10, 51);
-            label11.Name = "label11";
-            label11.Size = new Size(59, 15);
-            label11.TabIndex = 8;
-            label11.Text = "Upcoming";
+            label16.AutoSize = true;
+            label16.BackColor = Color.FromArgb(39, 41, 54);
+            label16.Cursor = Cursors.Hand;
+            label16.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label16.ForeColor = Color.White;
+            label16.Location = new Point(168, 47);
+            label16.Name = "label16";
+            label16.Size = new Size(20, 22);
+            label16.TabIndex = 4;
+            label16.Text = "6";
             // 
-            // label13
+            // iconButton3
             // 
-            label13.AutoSize = true;
-            label13.BackColor = Color.WhiteSmoke;
-            label13.Cursor = Cursors.Hand;
-            label13.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label13.ForeColor = Color.Black;
-            label13.Location = new Point(37, 20);
-            label13.Name = "label13";
-            label13.Size = new Size(114, 19);
-            label13.TabIndex = 7;
-            label13.Text = "Schedule Today";
+            iconButton3.FlatAppearance.BorderSize = 0;
+            iconButton3.FlatStyle = FlatStyle.Flat;
+            iconButton3.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            iconButton3.IconChar = FontAwesome.Sharp.IconChar.Hotjar;
+            iconButton3.IconColor = Color.FromArgb(2, 172, 195);
+            iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton3.IconSize = 30;
+            iconButton3.Location = new Point(17, 35);
+            iconButton3.Name = "iconButton3";
+            iconButton3.Size = new Size(54, 42);
+            iconButton3.TabIndex = 3;
+            iconButton3.TextImageRelation = TextImageRelation.ImageBeforeText;
+            iconButton3.UseVisualStyleBackColor = true;
             // 
-            // iconButton13
+            // label17
             // 
-            iconButton13.FlatAppearance.BorderSize = 0;
-            iconButton13.FlatStyle = FlatStyle.Flat;
-            iconButton13.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            iconButton13.IconChar = FontAwesome.Sharp.IconChar.CalendarCheck;
-            iconButton13.IconColor = Color.FromArgb(2, 172, 195);
-            iconButton13.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton13.IconSize = 24;
-            iconButton13.Location = new Point(-2, 9);
-            iconButton13.Name = "iconButton13";
-            iconButton13.Size = new Size(54, 42);
-            iconButton13.TabIndex = 6;
-            iconButton13.TextImageRelation = TextImageRelation.ImageBeforeText;
-            iconButton13.UseVisualStyleBackColor = true;
+            label17.AutoSize = true;
+            label17.BackColor = Color.FromArgb(39, 41, 54);
+            label17.Cursor = Cursors.Hand;
+            label17.Font = new Font("Times New Roman", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label17.ForeColor = Color.White;
+            label17.Location = new Point(17, 73);
+            label17.Name = "label17";
+            label17.Size = new Size(118, 15);
+            label17.TabIndex = 2;
+            label17.Text = "Each Month at Least";
             // 
-            // panel6
+            // label18
             // 
-            panel6.BackColor = Color.WhiteSmoke;
-            panel6.Controls.Add(button1);
-            panel6.Controls.Add(label15);
-            panel6.Controls.Add(iconButton12);
-            panel6.Location = new Point(300, 222);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(477, 289);
-            panel6.TabIndex = 7;
+            label18.AutoSize = true;
+            label18.BackColor = Color.FromArgb(39, 41, 54);
+            label18.Cursor = Cursors.Hand;
+            label18.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label18.ForeColor = Color.White;
+            label18.Location = new Point(17, 13);
+            label18.Name = "label18";
+            label18.Size = new Size(69, 19);
+            label18.TabIndex = 1;
+            label18.Text = "Revenue";
             // 
-            // button1
+            // panel14
             // 
-            button1.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(346, 16);
-            button1.Name = "button1";
-            button1.Size = new Size(115, 23);
-            button1.TabIndex = 6;
-            button1.Text = "DISMISS ALL";
-            button1.UseVisualStyleBackColor = true;
+            panel14.BackColor = Color.FromArgb(39, 41, 54);
+            panel14.Controls.Add(label22);
+            panel14.Controls.Add(iconButton5);
+            panel14.Controls.Add(label23);
+            panel14.Controls.Add(label24);
+            panel14.Location = new Point(34, 37);
+            panel14.Name = "panel14";
+            panel14.Size = new Size(209, 103);
+            panel14.TabIndex = 6;
             // 
-            // label15
+            // label22
             // 
-            label15.AutoSize = true;
-            label15.BackColor = Color.WhiteSmoke;
-            label15.Cursor = Cursors.Hand;
-            label15.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label15.ForeColor = Color.Black;
-            label15.Location = new Point(43, 20);
-            label15.Name = "label15";
-            label15.Size = new Size(90, 19);
-            label15.TabIndex = 5;
-            label15.Text = "Notifcations";
+            label22.AutoSize = true;
+            label22.BackColor = Color.FromArgb(39, 41, 54);
+            label22.Cursor = Cursors.Hand;
+            label22.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label22.ForeColor = Color.White;
+            label22.Location = new Point(168, 47);
+            label22.Name = "label22";
+            label22.Size = new Size(20, 22);
+            label22.TabIndex = 4;
+            label22.Text = "6";
             // 
-            // iconButton12
+            // iconButton5
             // 
-            iconButton12.FlatAppearance.BorderSize = 0;
-            iconButton12.FlatStyle = FlatStyle.Flat;
-            iconButton12.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            iconButton12.IconChar = FontAwesome.Sharp.IconChar.Bell;
-            iconButton12.IconColor = Color.FromArgb(2, 172, 195);
-            iconButton12.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton12.IconSize = 24;
-            iconButton12.Location = new Point(1, 10);
-            iconButton12.Name = "iconButton12";
-            iconButton12.Size = new Size(54, 42);
-            iconButton12.TabIndex = 3;
-            iconButton12.TextImageRelation = TextImageRelation.ImageBeforeText;
-            iconButton12.UseVisualStyleBackColor = true;
+            iconButton5.FlatAppearance.BorderSize = 0;
+            iconButton5.FlatStyle = FlatStyle.Flat;
+            iconButton5.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            iconButton5.IconChar = FontAwesome.Sharp.IconChar.Buffer;
+            iconButton5.IconColor = Color.FromArgb(2, 172, 195);
+            iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton5.IconSize = 30;
+            iconButton5.Location = new Point(17, 35);
+            iconButton5.Name = "iconButton5";
+            iconButton5.Size = new Size(54, 42);
+            iconButton5.TabIndex = 3;
+            iconButton5.TextImageRelation = TextImageRelation.ImageBeforeText;
+            iconButton5.UseVisualStyleBackColor = true;
             // 
-            // panel5
+            // label23
             // 
-            panel5.BackColor = Color.WhiteSmoke;
-            panel5.Location = new Point(3, 285);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(790, 229);
-            panel5.TabIndex = 6;
+            label23.AutoSize = true;
+            label23.BackColor = Color.FromArgb(39, 41, 54);
+            label23.Cursor = Cursors.Hand;
+            label23.Font = new Font("Times New Roman", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label23.ForeColor = Color.White;
+            label23.Location = new Point(17, 73);
+            label23.Name = "label23";
+            label23.Size = new Size(96, 15);
+            label23.TabIndex = 2;
+            label23.Text = "Active Packages";
             // 
-            // panel4
+            // label24
             // 
-            panel4.BackColor = Color.FromArgb(39, 41, 54);
-            panel4.Controls.Add(label7);
-            panel4.Controls.Add(iconButton10);
-            panel4.Controls.Add(label8);
-            panel4.Controls.Add(label9);
-            panel4.Location = new Point(465, 49);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(209, 103);
-            panel4.TabIndex = 5;
+            label24.AutoSize = true;
+            label24.BackColor = Color.FromArgb(39, 41, 54);
+            label24.Cursor = Cursors.Hand;
+            label24.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label24.ForeColor = Color.White;
+            label24.Location = new Point(17, 13);
+            label24.Name = "label24";
+            label24.Size = new Size(111, 19);
+            label24.TabIndex = 1;
+            label24.Text = "Total Packages";
             // 
-            // label7
+            // panel13
             // 
-            label7.AutoSize = true;
-            label7.BackColor = Color.FromArgb(39, 41, 54);
-            label7.Cursor = Cursors.Hand;
-            label7.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.ForeColor = Color.White;
-            label7.Location = new Point(168, 47);
-            label7.Name = "label7";
-            label7.Size = new Size(20, 22);
-            label7.TabIndex = 4;
-            label7.Text = "6";
+            panel13.BackColor = Color.FromArgb(39, 41, 54);
+            panel13.Controls.Add(label19);
+            panel13.Controls.Add(iconButton4);
+            panel13.Controls.Add(label20);
+            panel13.Controls.Add(label21);
+            panel13.Location = new Point(257, 37);
+            panel13.Name = "panel13";
+            panel13.Size = new Size(209, 103);
+            panel13.TabIndex = 7;
             // 
-            // iconButton10
+            // label19
             // 
-            iconButton10.FlatAppearance.BorderSize = 0;
-            iconButton10.FlatStyle = FlatStyle.Flat;
-            iconButton10.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            iconButton10.IconChar = FontAwesome.Sharp.IconChar.Hotjar;
-            iconButton10.IconColor = Color.FromArgb(2, 172, 195);
-            iconButton10.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton10.IconSize = 30;
-            iconButton10.Location = new Point(17, 35);
-            iconButton10.Name = "iconButton10";
-            iconButton10.Size = new Size(54, 42);
-            iconButton10.TabIndex = 3;
-            iconButton10.TextImageRelation = TextImageRelation.ImageBeforeText;
-            iconButton10.UseVisualStyleBackColor = true;
+            label19.AutoSize = true;
+            label19.BackColor = Color.FromArgb(39, 41, 54);
+            label19.Cursor = Cursors.Hand;
+            label19.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label19.ForeColor = Color.White;
+            label19.Location = new Point(168, 47);
+            label19.Name = "label19";
+            label19.Size = new Size(20, 22);
+            label19.TabIndex = 4;
+            label19.Text = "6";
             // 
-            // label8
+            // iconButton4
             // 
-            label8.AutoSize = true;
-            label8.BackColor = Color.FromArgb(39, 41, 54);
-            label8.Cursor = Cursors.Hand;
-            label8.Font = new Font("Times New Roman", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.ForeColor = Color.White;
-            label8.Location = new Point(17, 73);
-            label8.Name = "label8";
-            label8.Size = new Size(118, 15);
-            label8.TabIndex = 2;
-            label8.Text = "Each Month at Least";
+            iconButton4.FlatAppearance.BorderSize = 0;
+            iconButton4.FlatStyle = FlatStyle.Flat;
+            iconButton4.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            iconButton4.IconChar = FontAwesome.Sharp.IconChar.ChartColumn;
+            iconButton4.IconColor = Color.FromArgb(2, 172, 195);
+            iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton4.IconSize = 30;
+            iconButton4.Location = new Point(17, 35);
+            iconButton4.Name = "iconButton4";
+            iconButton4.Size = new Size(54, 42);
+            iconButton4.TabIndex = 3;
+            iconButton4.TextImageRelation = TextImageRelation.ImageBeforeText;
+            iconButton4.UseVisualStyleBackColor = true;
             // 
-            // label9
+            // label20
             // 
-            label9.AutoSize = true;
-            label9.BackColor = Color.FromArgb(39, 41, 54);
-            label9.Cursor = Cursors.Hand;
-            label9.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.ForeColor = Color.White;
-            label9.Location = new Point(17, 13);
-            label9.Name = "label9";
-            label9.Size = new Size(69, 19);
-            label9.TabIndex = 1;
-            label9.Text = "Revenue";
+            label20.AutoSize = true;
+            label20.BackColor = Color.FromArgb(39, 41, 54);
+            label20.Cursor = Cursors.Hand;
+            label20.Font = new Font("Times New Roman", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label20.ForeColor = Color.White;
+            label20.Location = new Point(17, 73);
+            label20.Name = "label20";
+            label20.Size = new Size(140, 15);
+            label20.TabIndex = 2;
+            label20.Text = "Completed Memberships";
             // 
-            // panel2
+            // label21
             // 
-            panel2.BackColor = Color.FromArgb(39, 41, 54);
-            panel2.Controls.Add(label4);
-            panel2.Controls.Add(iconButton9);
-            panel2.Controls.Add(label5);
-            panel2.Controls.Add(label6);
-            panel2.Location = new Point(241, 49);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(209, 103);
-            panel2.TabIndex = 5;
+            label21.AutoSize = true;
+            label21.BackColor = Color.FromArgb(39, 41, 54);
+            label21.Cursor = Cursors.Hand;
+            label21.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label21.ForeColor = Color.White;
+            label21.Location = new Point(17, 13);
+            label21.Name = "label21";
+            label21.Size = new Size(148, 19);
+            label21.TabIndex = 1;
+            label21.Text = "Active Memberships";
             // 
-            // label4
+            // panelDashboard
             // 
-            label4.AutoSize = true;
-            label4.BackColor = Color.FromArgb(39, 41, 54);
-            label4.Cursor = Cursors.Hand;
-            label4.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(168, 47);
-            label4.Name = "label4";
-            label4.Size = new Size(20, 22);
-            label4.TabIndex = 4;
-            label4.Text = "6";
+            panelDashboard.BackColor = Color.FromArgb(49, 52, 67);
+            panelDashboard.Controls.Add(panel8);
+            panelDashboard.Location = new Point(147, 0);
+            panelDashboard.Name = "panelDashboard";
+            panelDashboard.Size = new Size(793, 514);
+            panelDashboard.TabIndex = 0;
             // 
-            // iconButton9
+            // aa
             // 
-            iconButton9.FlatAppearance.BorderSize = 0;
-            iconButton9.FlatStyle = FlatStyle.Flat;
-            iconButton9.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            iconButton9.IconChar = FontAwesome.Sharp.IconChar.ChartColumn;
-            iconButton9.IconColor = Color.FromArgb(2, 172, 195);
-            iconButton9.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton9.IconSize = 30;
-            iconButton9.Location = new Point(17, 35);
-            iconButton9.Name = "iconButton9";
-            iconButton9.Size = new Size(54, 42);
-            iconButton9.TabIndex = 3;
-            iconButton9.TextImageRelation = TextImageRelation.ImageBeforeText;
-            iconButton9.UseVisualStyleBackColor = true;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.FromArgb(39, 41, 54);
-            label5.Cursor = Cursors.Hand;
-            label5.Font = new Font("Times New Roman", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.ForeColor = Color.White;
-            label5.Location = new Point(17, 73);
-            label5.Name = "label5";
-            label5.Size = new Size(140, 15);
-            label5.TabIndex = 2;
-            label5.Text = "Completed Memberships";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.BackColor = Color.FromArgb(39, 41, 54);
-            label6.Cursor = Cursors.Hand;
-            label6.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(17, 13);
-            label6.Name = "label6";
-            label6.Size = new Size(148, 19);
-            label6.TabIndex = 1;
-            label6.Text = "Active Memberships";
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.FromArgb(39, 41, 54);
-            panel3.Controls.Add(label3);
-            panel3.Controls.Add(iconButton8);
-            panel3.Controls.Add(label1);
-            panel3.Controls.Add(label2);
-            panel3.Location = new Point(18, 49);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(209, 103);
-            panel3.TabIndex = 2;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.FromArgb(39, 41, 54);
-            label3.Cursor = Cursors.Hand;
-            label3.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(168, 47);
-            label3.Name = "label3";
-            label3.Size = new Size(20, 22);
-            label3.TabIndex = 4;
-            label3.Text = "6";
-            // 
-            // iconButton8
-            // 
-            iconButton8.FlatAppearance.BorderSize = 0;
-            iconButton8.FlatStyle = FlatStyle.Flat;
-            iconButton8.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            iconButton8.IconChar = FontAwesome.Sharp.IconChar.Buffer;
-            iconButton8.IconColor = Color.FromArgb(2, 172, 195);
-            iconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton8.IconSize = 30;
-            iconButton8.Location = new Point(17, 35);
-            iconButton8.Name = "iconButton8";
-            iconButton8.Size = new Size(54, 42);
-            iconButton8.TabIndex = 3;
-            iconButton8.TextImageRelation = TextImageRelation.ImageBeforeText;
-            iconButton8.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.FromArgb(39, 41, 54);
-            label1.Cursor = Cursors.Hand;
-            label1.Font = new Font("Times New Roman", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(17, 73);
-            label1.Name = "label1";
-            label1.Size = new Size(96, 15);
-            label1.TabIndex = 2;
-            label1.Text = "Active Packages";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.FromArgb(39, 41, 54);
-            label2.Cursor = Cursors.Hand;
-            label2.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(17, 13);
-            label2.Name = "label2";
-            label2.Size = new Size(111, 19);
-            label2.TabIndex = 1;
-            label2.Text = "Total Packages";
+            aa.Dock = DockStyle.Top;
+            aa.FlatAppearance.BorderSize = 0;
+            aa.FlatStyle = FlatStyle.Flat;
+            aa.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
+            aa.ForeColor = Color.White;
+            aa.IconChar = FontAwesome.Sharp.IconChar._0;
+            aa.IconColor = Color.FromArgb(2, 172, 195);
+            aa.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            aa.IconSize = 24;
+            aa.Location = new Point(0, 0);
+            aa.Name = "aa";
+            aa.Size = new Size(150, 70);
+            aa.TabIndex = 9;
+            aa.TextImageRelation = TextImageRelation.ImageBeforeText;
+            aa.UseVisualStyleBackColor = true;
             // 
             // panelSidebar
             // 
             panelSidebar.BackColor = Color.FromArgb(39, 41, 54);
-            panelSidebar.Controls.Add(iconButton7);
-            panelSidebar.Controls.Add(iconButton6);
-            panelSidebar.Controls.Add(iconButton5);
-            panelSidebar.Controls.Add(iconButton4);
-            panelSidebar.Controls.Add(iconButton3);
-            panelSidebar.Controls.Add(iconButton2);
-            panelSidebar.Controls.Add(iconButton1);
+            panelSidebar.Controls.Add(pictureBox1);
+            panelSidebar.Controls.Add(btnLogout);
+            panelSidebar.Controls.Add(btnAbout);
+            panelSidebar.Controls.Add(btnFAQ);
+            panelSidebar.Controls.Add(btnPayments);
+            panelSidebar.Controls.Add(btnMemberShips);
+            panelSidebar.Controls.Add(btnInstructors);
+            panelSidebar.Controls.Add(btnClients);
+            panelSidebar.Controls.Add(btnPackages);
             panelSidebar.Controls.Add(btnDashboard);
+            panelSidebar.Controls.Add(aa);
             panelSidebar.Dock = DockStyle.Left;
             panelSidebar.Location = new Point(0, 0);
             panelSidebar.Name = "panelSidebar";
             panelSidebar.Size = new Size(150, 513);
-            panelSidebar.TabIndex = 1;
+            panelSidebar.TabIndex = 4;
             // 
-            // iconButton7
+            // pictureBox1
             // 
-            iconButton7.Dock = DockStyle.Top;
-            iconButton7.FlatAppearance.BorderSize = 0;
-            iconButton7.FlatStyle = FlatStyle.Flat;
-            iconButton7.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            iconButton7.ForeColor = Color.White;
-            iconButton7.IconChar = FontAwesome.Sharp.IconChar.CircleInfo;
-            iconButton7.IconColor = Color.FromArgb(2, 172, 195);
-            iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton7.IconSize = 24;
-            iconButton7.Location = new Point(0, 325);
-            iconButton7.Name = "iconButton7";
-            iconButton7.Size = new Size(150, 53);
-            iconButton7.TabIndex = 9;
-            iconButton7.Text = "About            ";
-            iconButton7.TextImageRelation = TextImageRelation.ImageBeforeText;
-            iconButton7.UseVisualStyleBackColor = true;
+            pictureBox1.Image = Properties.Resources._1a;
+            pictureBox1.Location = new Point(31, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(70, 50);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 19;
+            pictureBox1.TabStop = false;
             // 
-            // iconButton6
+            // btnLogout
             // 
-            iconButton6.Dock = DockStyle.Top;
-            iconButton6.FlatAppearance.BorderSize = 0;
-            iconButton6.FlatStyle = FlatStyle.Flat;
-            iconButton6.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            iconButton6.ForeColor = Color.White;
-            iconButton6.IconChar = FontAwesome.Sharp.IconChar.CircleQuestion;
-            iconButton6.IconColor = Color.FromArgb(2, 172, 195);
-            iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton6.IconSize = 24;
-            iconButton6.Location = new Point(0, 279);
-            iconButton6.Name = "iconButton6";
-            iconButton6.Size = new Size(150, 46);
-            iconButton6.TabIndex = 8;
-            iconButton6.Text = "FAQ                ";
-            iconButton6.TextAlign = ContentAlignment.MiddleLeft;
-            iconButton6.TextImageRelation = TextImageRelation.ImageBeforeText;
-            iconButton6.UseVisualStyleBackColor = true;
+            btnLogout.Dock = DockStyle.Top;
+            btnLogout.FlatAppearance.BorderSize = 0;
+            btnLogout.FlatStyle = FlatStyle.Flat;
+            btnLogout.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
+            btnLogout.ForeColor = Color.White;
+            btnLogout.IconChar = FontAwesome.Sharp.IconChar.LockOpen;
+            btnLogout.IconColor = Color.FromArgb(2, 172, 195);
+            btnLogout.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnLogout.IconSize = 24;
+            btnLogout.Location = new Point(0, 378);
+            btnLogout.Name = "btnLogout";
+            btnLogout.Size = new Size(150, 39);
+            btnLogout.TabIndex = 18;
+            btnLogout.Text = "Logout           ";
+            btnLogout.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnLogout.UseVisualStyleBackColor = true;
             // 
-            // iconButton5
+            // btnAbout
             // 
-            iconButton5.Dock = DockStyle.Top;
-            iconButton5.FlatAppearance.BorderSize = 0;
-            iconButton5.FlatStyle = FlatStyle.Flat;
-            iconButton5.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            iconButton5.ForeColor = Color.White;
-            iconButton5.IconChar = FontAwesome.Sharp.IconChar.CreditCard;
-            iconButton5.IconColor = Color.FromArgb(2, 172, 195);
-            iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton5.IconSize = 24;
-            iconButton5.Location = new Point(0, 233);
-            iconButton5.Name = "iconButton5";
-            iconButton5.Size = new Size(150, 46);
-            iconButton5.TabIndex = 7;
-            iconButton5.Text = "Payments        ";
-            iconButton5.TextAlign = ContentAlignment.MiddleLeft;
-            iconButton5.TextImageRelation = TextImageRelation.ImageBeforeText;
-            iconButton5.UseVisualStyleBackColor = true;
+            btnAbout.Dock = DockStyle.Top;
+            btnAbout.FlatAppearance.BorderSize = 0;
+            btnAbout.FlatStyle = FlatStyle.Flat;
+            btnAbout.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
+            btnAbout.ForeColor = Color.White;
+            btnAbout.IconChar = FontAwesome.Sharp.IconChar.CircleInfo;
+            btnAbout.IconColor = Color.FromArgb(2, 172, 195);
+            btnAbout.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnAbout.IconSize = 24;
+            btnAbout.Location = new Point(0, 339);
+            btnAbout.Name = "btnAbout";
+            btnAbout.Size = new Size(150, 39);
+            btnAbout.TabIndex = 17;
+            btnAbout.Text = "About            ";
+            btnAbout.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnAbout.UseVisualStyleBackColor = true;
+            btnAbout.Click += btnAbout_Click;
             // 
-            // iconButton4
+            // btnFAQ
             // 
-            iconButton4.Dock = DockStyle.Top;
-            iconButton4.FlatAppearance.BorderSize = 0;
-            iconButton4.FlatStyle = FlatStyle.Flat;
-            iconButton4.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            iconButton4.ForeColor = Color.White;
-            iconButton4.IconChar = FontAwesome.Sharp.IconChar.UserFriends;
-            iconButton4.IconColor = Color.FromArgb(2, 172, 195);
-            iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton4.IconSize = 24;
-            iconButton4.Location = new Point(0, 187);
-            iconButton4.Name = "iconButton4";
-            iconButton4.Size = new Size(150, 46);
-            iconButton4.TabIndex = 6;
-            iconButton4.Text = "MemberShips";
-            iconButton4.TextAlign = ContentAlignment.MiddleLeft;
-            iconButton4.TextImageRelation = TextImageRelation.ImageBeforeText;
-            iconButton4.UseVisualStyleBackColor = true;
+            btnFAQ.Dock = DockStyle.Top;
+            btnFAQ.FlatAppearance.BorderSize = 0;
+            btnFAQ.FlatStyle = FlatStyle.Flat;
+            btnFAQ.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
+            btnFAQ.ForeColor = Color.White;
+            btnFAQ.IconChar = FontAwesome.Sharp.IconChar.CircleQuestion;
+            btnFAQ.IconColor = Color.FromArgb(2, 172, 195);
+            btnFAQ.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnFAQ.IconSize = 24;
+            btnFAQ.Location = new Point(0, 301);
+            btnFAQ.Name = "btnFAQ";
+            btnFAQ.Size = new Size(150, 38);
+            btnFAQ.TabIndex = 16;
+            btnFAQ.Text = "FAQ                ";
+            btnFAQ.TextAlign = ContentAlignment.MiddleLeft;
+            btnFAQ.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnFAQ.UseVisualStyleBackColor = true;
             // 
-            // iconButton3
+            // btnPayments
             // 
-            iconButton3.Dock = DockStyle.Top;
-            iconButton3.FlatAppearance.BorderSize = 0;
-            iconButton3.FlatStyle = FlatStyle.Flat;
-            iconButton3.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            iconButton3.ForeColor = Color.White;
-            iconButton3.IconChar = FontAwesome.Sharp.IconChar.CriticalRole;
-            iconButton3.IconColor = Color.FromArgb(2, 172, 195);
-            iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton3.IconSize = 24;
-            iconButton3.Location = new Point(0, 141);
-            iconButton3.Name = "iconButton3";
-            iconButton3.Size = new Size(150, 46);
-            iconButton3.TabIndex = 5;
-            iconButton3.Text = "Instructors  ";
-            iconButton3.TextAlign = ContentAlignment.MiddleLeft;
-            iconButton3.TextImageRelation = TextImageRelation.ImageBeforeText;
-            iconButton3.UseVisualStyleBackColor = true;
+            btnPayments.Dock = DockStyle.Top;
+            btnPayments.FlatAppearance.BorderSize = 0;
+            btnPayments.FlatStyle = FlatStyle.Flat;
+            btnPayments.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
+            btnPayments.ForeColor = Color.White;
+            btnPayments.IconChar = FontAwesome.Sharp.IconChar.CreditCard;
+            btnPayments.IconColor = Color.FromArgb(2, 172, 195);
+            btnPayments.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnPayments.IconSize = 24;
+            btnPayments.Location = new Point(0, 263);
+            btnPayments.Name = "btnPayments";
+            btnPayments.Size = new Size(150, 38);
+            btnPayments.TabIndex = 15;
+            btnPayments.Text = "Payments        ";
+            btnPayments.TextAlign = ContentAlignment.MiddleLeft;
+            btnPayments.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnPayments.UseVisualStyleBackColor = true;
             // 
-            // iconButton2
+            // btnMemberShips
             // 
-            iconButton2.Dock = DockStyle.Top;
-            iconButton2.FlatAppearance.BorderSize = 0;
-            iconButton2.FlatStyle = FlatStyle.Flat;
-            iconButton2.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            iconButton2.ForeColor = Color.White;
-            iconButton2.IconChar = FontAwesome.Sharp.IconChar.User;
-            iconButton2.IconColor = Color.FromArgb(2, 172, 195);
-            iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton2.IconSize = 24;
-            iconButton2.Location = new Point(0, 95);
-            iconButton2.Name = "iconButton2";
-            iconButton2.Size = new Size(150, 46);
-            iconButton2.TabIndex = 4;
-            iconButton2.Text = "Clients       ";
-            iconButton2.TextAlign = ContentAlignment.MiddleLeft;
-            iconButton2.TextImageRelation = TextImageRelation.ImageBeforeText;
-            iconButton2.UseVisualStyleBackColor = true;
+            btnMemberShips.Dock = DockStyle.Top;
+            btnMemberShips.FlatAppearance.BorderSize = 0;
+            btnMemberShips.FlatStyle = FlatStyle.Flat;
+            btnMemberShips.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
+            btnMemberShips.ForeColor = Color.White;
+            btnMemberShips.IconChar = FontAwesome.Sharp.IconChar.UserFriends;
+            btnMemberShips.IconColor = Color.FromArgb(2, 172, 195);
+            btnMemberShips.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnMemberShips.IconSize = 24;
+            btnMemberShips.Location = new Point(0, 225);
+            btnMemberShips.Name = "btnMemberShips";
+            btnMemberShips.Size = new Size(150, 38);
+            btnMemberShips.TabIndex = 14;
+            btnMemberShips.Text = "MemberShips";
+            btnMemberShips.TextAlign = ContentAlignment.MiddleLeft;
+            btnMemberShips.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnMemberShips.UseVisualStyleBackColor = true;
             // 
-            // iconButton1
+            // btnInstructors
             // 
-            iconButton1.Dock = DockStyle.Top;
-            iconButton1.FlatAppearance.BorderSize = 0;
-            iconButton1.FlatStyle = FlatStyle.Flat;
-            iconButton1.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            iconButton1.ForeColor = Color.White;
-            iconButton1.IconChar = FontAwesome.Sharp.IconChar.Atom;
-            iconButton1.IconColor = Color.FromArgb(2, 172, 195);
-            iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton1.IconSize = 24;
-            iconButton1.Location = new Point(0, 49);
-            iconButton1.Name = "iconButton1";
-            iconButton1.Size = new Size(150, 46);
-            iconButton1.TabIndex = 3;
-            iconButton1.Text = "Packages    ";
-            iconButton1.TextAlign = ContentAlignment.MiddleLeft;
-            iconButton1.TextImageRelation = TextImageRelation.ImageBeforeText;
-            iconButton1.UseVisualStyleBackColor = true;
+            btnInstructors.Dock = DockStyle.Top;
+            btnInstructors.FlatAppearance.BorderSize = 0;
+            btnInstructors.FlatStyle = FlatStyle.Flat;
+            btnInstructors.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
+            btnInstructors.ForeColor = Color.White;
+            btnInstructors.IconChar = FontAwesome.Sharp.IconChar.CriticalRole;
+            btnInstructors.IconColor = Color.FromArgb(2, 172, 195);
+            btnInstructors.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnInstructors.IconSize = 24;
+            btnInstructors.Location = new Point(0, 187);
+            btnInstructors.Name = "btnInstructors";
+            btnInstructors.Size = new Size(150, 38);
+            btnInstructors.TabIndex = 13;
+            btnInstructors.Text = "Instructors  ";
+            btnInstructors.TextAlign = ContentAlignment.MiddleLeft;
+            btnInstructors.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnInstructors.UseVisualStyleBackColor = true;
+            // 
+            // btnClients
+            // 
+            btnClients.Dock = DockStyle.Top;
+            btnClients.FlatAppearance.BorderSize = 0;
+            btnClients.FlatStyle = FlatStyle.Flat;
+            btnClients.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
+            btnClients.ForeColor = Color.White;
+            btnClients.IconChar = FontAwesome.Sharp.IconChar.User;
+            btnClients.IconColor = Color.FromArgb(2, 172, 195);
+            btnClients.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnClients.IconSize = 24;
+            btnClients.Location = new Point(0, 149);
+            btnClients.Name = "btnClients";
+            btnClients.Size = new Size(150, 38);
+            btnClients.TabIndex = 12;
+            btnClients.Text = "Clients       ";
+            btnClients.TextAlign = ContentAlignment.MiddleLeft;
+            btnClients.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnClients.UseVisualStyleBackColor = true;
+            // 
+            // btnPackages
+            // 
+            btnPackages.Dock = DockStyle.Top;
+            btnPackages.FlatAppearance.BorderSize = 0;
+            btnPackages.FlatStyle = FlatStyle.Flat;
+            btnPackages.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
+            btnPackages.ForeColor = Color.White;
+            btnPackages.IconChar = FontAwesome.Sharp.IconChar.Atom;
+            btnPackages.IconColor = Color.FromArgb(2, 172, 195);
+            btnPackages.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnPackages.IconSize = 24;
+            btnPackages.Location = new Point(0, 111);
+            btnPackages.Name = "btnPackages";
+            btnPackages.Size = new Size(150, 38);
+            btnPackages.TabIndex = 11;
+            btnPackages.Text = "Packages    ";
+            btnPackages.TextAlign = ContentAlignment.MiddleLeft;
+            btnPackages.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnPackages.UseVisualStyleBackColor = true;
             // 
             // btnDashboard
             // 
@@ -564,14 +505,15 @@
             btnDashboard.IconColor = Color.FromArgb(2, 172, 195);
             btnDashboard.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnDashboard.IconSize = 24;
-            btnDashboard.Location = new Point(0, 0);
+            btnDashboard.Location = new Point(0, 70);
             btnDashboard.Name = "btnDashboard";
-            btnDashboard.Size = new Size(150, 49);
-            btnDashboard.TabIndex = 2;
+            btnDashboard.Size = new Size(150, 41);
+            btnDashboard.TabIndex = 10;
             btnDashboard.Text = "Dashboard    ";
             btnDashboard.TextAlign = ContentAlignment.MiddleLeft;
             btnDashboard.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnDashboard.UseVisualStyleBackColor = true;
+            btnDashboard.Click += btnDashboard_Click;
             // 
             // Dashboard
             // 
@@ -579,59 +521,51 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(939, 513);
             Controls.Add(panelSidebar);
-            Controls.Add(panel1);
+            Controls.Add(panelDashboard);
             Name = "Dashboard";
-            Text = "Dashboard";
-            panel1.ResumeLayout(false);
-            panel7.ResumeLayout(false);
-            panel7.PerformLayout();
-            panel6.ResumeLayout(false);
-            panel6.PerformLayout();
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
+            Text = "RAMR";
+            panel8.ResumeLayout(false);
+            panel12.ResumeLayout(false);
+            panel12.PerformLayout();
+            panel14.ResumeLayout(false);
+            panel14.PerformLayout();
+            panel13.ResumeLayout(false);
+            panel13.PerformLayout();
+            panelDashboard.ResumeLayout(false);
             panelSidebar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
-
-        private Panel panel1;
+        private Panel panel8;
+        private Panel panelDashboard;
+        private FontAwesome.Sharp.IconButton aa;
         private Panel panelSidebar;
-        private FontAwesome.Sharp.IconButton btnDashboard;
-        private FontAwesome.Sharp.IconButton iconButton5;
-        private FontAwesome.Sharp.IconButton iconButton4;
+        private Panel panel12;
+        private Label label16;
         private FontAwesome.Sharp.IconButton iconButton3;
-        private FontAwesome.Sharp.IconButton iconButton2;
-        private FontAwesome.Sharp.IconButton iconButton1;
-        private FontAwesome.Sharp.IconButton iconButton7;
-        private FontAwesome.Sharp.IconButton iconButton6;
-        private Panel panel3;
-        private Label label2;
-        private Label label1;
-        private FontAwesome.Sharp.IconButton iconButton8;
-        private Panel panel4;
-        private Label label7;
-        private FontAwesome.Sharp.IconButton iconButton10;
-        private Label label8;
-        private Label label9;
-        private Panel panel2;
-        private Label label4;
-        private FontAwesome.Sharp.IconButton iconButton9;
-        private Label label5;
-        private Label label6;
-        private Label label3;
-        private Panel panel6;
-        private FontAwesome.Sharp.IconButton iconButton12;
-        private Panel panel5;
-        private Label label15;
-        private Button button1;
-        private Panel panel7;
-        private Label label11;
-        private Label label13;
-        private FontAwesome.Sharp.IconButton iconButton13;
+        private Label label17;
+        private Label label18;
+        private Panel panel14;
+        private Label label22;
+        private FontAwesome.Sharp.IconButton iconButton5;
+        private Label label23;
+        private Label label24;
+        private Panel panel13;
+        private Label label19;
+        private FontAwesome.Sharp.IconButton iconButton4;
+        private Label label20;
+        private Label label21;
+        private FontAwesome.Sharp.IconButton btnAbout;
+        private FontAwesome.Sharp.IconButton btnFAQ;
+        private FontAwesome.Sharp.IconButton btnPayments;
+        private FontAwesome.Sharp.IconButton btnMemberShips;
+        private FontAwesome.Sharp.IconButton btnInstructors;
+        private FontAwesome.Sharp.IconButton btnClients;
+        private FontAwesome.Sharp.IconButton btnPackages;
+        private FontAwesome.Sharp.IconButton btnDashboard;
+        private FontAwesome.Sharp.IconButton btnLogout;
+        private PictureBox pictureBox1;
     }
 }
