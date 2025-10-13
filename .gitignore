@@ -3,3 +3,15 @@
 *.suo
 *.userosscache
 *.sln.docstates
+
+# Build directories
+bin/
+obj/
+
+# Other temporary or local files
+*.cache
+*.dll
+*.pdb
+*.exe
+*.log
+*.db
