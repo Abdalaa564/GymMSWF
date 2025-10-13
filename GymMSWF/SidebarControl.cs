@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace GymMSWF
 {
-    public partial class Dashboard : Form
+    public partial class SidebarControl : UserControl
     {
-        public Dashboard()
+        public SidebarControl()
         {
             InitializeComponent();
         }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
     }
 }

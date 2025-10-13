@@ -161,3 +161,4 @@ G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.Dashboard.resou
 G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.Properties.Resources.resources
 G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.sourcelink.json
 G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\bin\Debug\net8.0-windows\appsettings.json
+G:\A.O.C\ITI\C#\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.SidebarControl.resources
