@@ -22,6 +22,7 @@ namespace GymServices
 
 		public async Task<List<ClientDto>> GetAllClients()
 		{
+			//Ramiz
 			return await _context.client
 			   .Include(c => c.Package)
 			   .Include(c => c.Payments)
