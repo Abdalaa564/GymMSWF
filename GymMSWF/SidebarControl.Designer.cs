@@ -35,7 +35,7 @@
             iconButton4 = new FontAwesome.Sharp.IconButton();
             iconButton5 = new FontAwesome.Sharp.IconButton();
             iconButton6 = new FontAwesome.Sharp.IconButton();
-            iconButton7 = new FontAwesome.Sharp.IconButton();
+            btnAbout = new FontAwesome.Sharp.IconButton();
             panelSidebar = new Panel();
             panelSidebar.SuspendLayout();
             SuspendLayout();
@@ -180,29 +180,30 @@
             iconButton6.TextImageRelation = TextImageRelation.ImageBeforeText;
             iconButton6.UseVisualStyleBackColor = true;
             // 
-            // iconButton7
+            // btnAbout
             // 
-            iconButton7.Dock = DockStyle.Top;
-            iconButton7.FlatAppearance.BorderSize = 0;
-            iconButton7.FlatStyle = FlatStyle.Flat;
-            iconButton7.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            iconButton7.ForeColor = Color.White;
-            iconButton7.IconChar = FontAwesome.Sharp.IconChar.CircleInfo;
-            iconButton7.IconColor = Color.FromArgb(2, 172, 195);
-            iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton7.IconSize = 24;
-            iconButton7.Location = new Point(0, 325);
-            iconButton7.Name = "iconButton7";
-            iconButton7.Size = new Size(150, 53);
-            iconButton7.TabIndex = 9;
-            iconButton7.Text = "About            ";
-            iconButton7.TextImageRelation = TextImageRelation.ImageBeforeText;
-            iconButton7.UseVisualStyleBackColor = true;
+            btnAbout.Dock = DockStyle.Top;
+            btnAbout.FlatAppearance.BorderSize = 0;
+            btnAbout.FlatStyle = FlatStyle.Flat;
+            btnAbout.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
+            btnAbout.ForeColor = Color.White;
+            btnAbout.IconChar = FontAwesome.Sharp.IconChar.CircleInfo;
+            btnAbout.IconColor = Color.FromArgb(2, 172, 195);
+            btnAbout.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnAbout.IconSize = 24;
+            btnAbout.Location = new Point(0, 325);
+            btnAbout.Name = "btnAbout";
+            btnAbout.Size = new Size(150, 53);
+            btnAbout.TabIndex = 9;
+            btnAbout.Text = "About            ";
+            btnAbout.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnAbout.UseVisualStyleBackColor = true;
+            btnAbout.Click += btnAbout_Click;
             // 
             // panelSidebar
             // 
             panelSidebar.BackColor = Color.FromArgb(39, 41, 54);
-            panelSidebar.Controls.Add(iconButton7);
+            panelSidebar.Controls.Add(btnAbout);
             panelSidebar.Controls.Add(iconButton6);
             panelSidebar.Controls.Add(iconButton5);
             panelSidebar.Controls.Add(iconButton4);
@@ -236,7 +237,7 @@
         private FontAwesome.Sharp.IconButton iconButton4;
         private FontAwesome.Sharp.IconButton iconButton5;
         private FontAwesome.Sharp.IconButton iconButton6;
-        private FontAwesome.Sharp.IconButton iconButton7;
+        private FontAwesome.Sharp.IconButton btnAbout;
         private Panel panelSidebar;
     }
 }

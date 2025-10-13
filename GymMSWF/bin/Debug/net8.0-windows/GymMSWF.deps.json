@@ -13,6 +13,7 @@
           "Guna.UI2.WinForms": "2.0.4.7",
           "GymData": "1.0.0",
           "GymServices": "1.0.0",
+          "HIC.System.Windows.Forms.DataVisualization": "1.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.9",
           "Microsoft.Extensions.Configuration": "9.0.9",
@@ -84,6 +85,17 @@
           "lib/net7.0-windows7.0/Guna.UI2.dll": {
             "assemblyVersion": "2.0.4.7",
             "fileVersion": "2.0.4.7"
+          }
+        }
+      },
+      "HIC.System.Windows.Forms.DataVisualization/1.0.1": {
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.1.6"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/System.Windows.Forms.DataVisualization.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -1159,6 +1171,13 @@
       "sha512": "sha512-8BdBYsfnntuICbFMHIZsd5morwURN8Ucsvq7wJeyLV1Z1ze6CAIxVKEirufgjGIiXfF0M0sCr9EVFloZSazWew==",
       "path": "guna.ui2.winforms/2.0.4.7",
       "hashPath": "guna.ui2.winforms.2.0.4.7.nupkg.sha512"
+    },
+    "HIC.System.Windows.Forms.DataVisualization/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2iErCJov37VIGLATCcI8tAaFemn8KJW/b4686foj+CslKTSGa2NcQgvVCYF+kR4+6d9cg09X1xrcoIgnVlznsA==",
+      "path": "hic.system.windows.forms.datavisualization/1.0.1",
+      "hashPath": "hic.system.windows.forms.datavisualization.1.0.1.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace GymMSWF
 {
-    public partial class SidebarControl : UserControl
+    public partial class About : UserControl
     {
-        public SidebarControl()
+        public About()
         {
             InitializeComponent();
-        }
-
-        private void btnAbout_Click(object sender, EventArgs e)
-        {
-            //LoadPage(new About());
         }
     }
 }
