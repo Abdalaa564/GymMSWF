@@ -28,46 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
-            pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            sidebarControl1 = new SidebarControl();
             SuspendLayout();
             // 
-            // dataGridView1
+            // sidebarControl1
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(577, 107);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(240, 150);
-            dataGridView1.TabIndex = 0;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Location = new Point(306, 164);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(100, 50);
-            pictureBox1.TabIndex = 1;
-            pictureBox1.TabStop = false;
+            sidebarControl1.Location = new Point(-2, -2);
+            sidebarControl1.Name = "sidebarControl1";
+            sidebarControl1.Size = new Size(149, 523);
+            sidebarControl1.TabIndex = 0;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(830, 450);
-            Controls.Add(pictureBox1);
-            Controls.Add(dataGridView1);
+            ClientSize = new Size(830, 555);
+            Controls.Add(sidebarControl1);
             Name = "Form1";
             Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            Load += Form1_Load;
             ResumeLayout(false);
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
-        private PictureBox pictureBox1;
+        private SidebarControl sidebarControl1;
     }
 }
