@@ -32,7 +32,7 @@
 .cr/
 
 # Python Tools for Visual Studio (PTVS)
-_pycache_/
+pycache/
 *.pyc
 
 # JetBrains Rider
@@ -69,3 +69,7 @@ _ReSharper.*
 # Help files
 *.html
 *.chm
+
+# Environment-specific appsettings
+appsettings.*.json
+!appsettings.json
