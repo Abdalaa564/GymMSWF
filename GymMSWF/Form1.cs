@@ -24,8 +24,6 @@ namespace GymMSWF
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            SidebarControl sidebar = new SidebarControl();
-            this.Controls.Add(sidebar);
 
         }
     }
