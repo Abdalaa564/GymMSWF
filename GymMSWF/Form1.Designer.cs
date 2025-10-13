@@ -1,4 +1,6 @@
-﻿namespace GymMSWF
+﻿using System.Windows.Forms;
+
+namespace GymMSWF
 {
     partial class Form1
     {
@@ -29,6 +31,8 @@
         private void InitializeComponent()
         {
             sidebarControl1 = new SidebarControl();
+            dataGridView1 = new DataGridView();
+            pictureBox1 = new PictureBox();
             SuspendLayout();
             // 
             // sidebarControl1
@@ -38,20 +42,47 @@
             sidebarControl1.Size = new Size(149, 523);
             sidebarControl1.TabIndex = 0;
             // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(659, 143);
+            dataGridView1.Margin = new Padding(3, 4, 3, 4);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(274, 200);
+            dataGridView1.TabIndex = 1;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(350, 219);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(114, 67);
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(830, 555);
+            ClientSize = new Size(949, 600);
             Controls.Add(sidebarControl1);
+            Controls.Add(pictureBox1);
+            Controls.Add(dataGridView1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private SidebarControl sidebarControl1;
+        private DataGridView dataGridView1;
+        private PictureBox pictureBox1;
     }
 }
