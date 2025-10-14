@@ -4,6 +4,7 @@ using GymData;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GymData.Migrations
 {
     [DbContext(typeof(GymContextDB))]
-    partial class GymContextDBModelSnapshot : ModelSnapshot
+    [Migration("20251013203543_addInstructorTitleAndSalary")]
+    partial class addInstructorTitleAndSalary
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -158,7 +161,7 @@ namespace GymData.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("pack_id"));
 
-                    b.Property<int?>("ins_id")
+                    b.Property<int>("ins_id")
                         .HasColumnType("int");
 
                     b.Property<string>("pack_desc")
@@ -235,7 +238,8 @@ namespace GymData.Migrations
                     b.HasOne("GymData.Models.Instructor", "Instructor")
                         .WithMany("Packages")
                         .HasForeignKey("ins_id")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("Instructor");
                 });
