@@ -147,7 +147,7 @@ namespace GymData.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("pack_id"));
 
-                    b.Property<int>("ins_id")
+                    b.Property<int?>("ins_id")
                         .HasColumnType("int");
 
                     b.Property<string>("pack_desc")
@@ -224,8 +224,7 @@ namespace GymData.Migrations
                     b.HasOne("GymData.Models.Instructor", "Instructor")
                         .WithMany("Packages")
                         .HasForeignKey("ins_id")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.Navigation("Instructor");
                 });

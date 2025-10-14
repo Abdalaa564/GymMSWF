@@ -13,3 +13,18 @@ G:\A.O.C\ITI\C#\GymMSWF\GymData\obj\Debug\net8.0\GymData.pdb
 G:\A.O.C\ITI\C#\GymMSWF\GymData\obj\Debug\net8.0\GymData.genruntimeconfig.cache
 G:\A.O.C\ITI\C#\GymMSWF\GymData\obj\Debug\net8.0\ref\GymData.dll
 G:\A.O.C\ITI\C#\GymMSWF\GymData\obj\Debug\net8.0\GymData.sourcelink.json
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymData\bin\Debug\net8.0\GymData.deps.json
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymData\bin\Debug\net8.0\GymData.runtimeconfig.json
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymData\bin\Debug\net8.0\GymData.dll
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymData\bin\Debug\net8.0\GymData.pdb
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymData\obj\Debug\net8.0\GymData.csproj.AssemblyReference.cache
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymData\obj\Debug\net8.0\GymData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymData\obj\Debug\net8.0\GymData.AssemblyInfoInputs.cache
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymData\obj\Debug\net8.0\GymData.AssemblyInfo.cs
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymData\obj\Debug\net8.0\GymData.csproj.CoreCompileInputs.cache
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymData\obj\Debug\net8.0\GymData.sourcelink.json
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymData\obj\Debug\net8.0\GymData.dll
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymData\obj\Debug\net8.0\refint\GymData.dll
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymData\obj\Debug\net8.0\GymData.pdb
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymData\obj\Debug\net8.0\GymData.genruntimeconfig.cache
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymData\obj\Debug\net8.0\ref\GymData.dll

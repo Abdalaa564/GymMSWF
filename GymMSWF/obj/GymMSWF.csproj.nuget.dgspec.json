@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymMSWF\\GymMSWF.csproj": {}
+    "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymMSWF\\GymMSWF.csproj": {}
   },
   "projects": {
-    "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymData\\GymData.csproj": {
+    "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymData\\GymData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymData\\GymData.csproj",
+        "projectUniqueName": "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymData\\GymData.csproj",
         "projectName": "GymData",
-        "projectPath": "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymData\\GymData.csproj",
-        "packagesPath": "C:\\Users\\AbdallaKhalil\\.nuget\\packages\\",
-        "outputPath": "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymData\\obj\\",
+        "projectPath": "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymData\\GymData.csproj",
+        "packagesPath": "C:\\Users\\Sara Ahmed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AbdallaKhalil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sara Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -89,24 +89,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymMSWF\\GymMSWF.csproj": {
+    "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymMSWF\\GymMSWF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymMSWF\\GymMSWF.csproj",
+        "projectUniqueName": "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymMSWF\\GymMSWF.csproj",
         "projectName": "GymMSWF",
-        "projectPath": "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymMSWF\\GymMSWF.csproj",
-        "packagesPath": "C:\\Users\\AbdallaKhalil\\.nuget\\packages\\",
-        "outputPath": "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymMSWF\\obj\\",
+        "projectPath": "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymMSWF\\GymMSWF.csproj",
+        "packagesPath": "C:\\Users\\Sara Ahmed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymMSWF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AbdallaKhalil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sara Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -121,11 +121,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymData\\GymData.csproj": {
-                "projectPath": "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymData\\GymData.csproj"
+              "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymData\\GymData.csproj": {
+                "projectPath": "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymData\\GymData.csproj"
               },
-              "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymServices\\GymServices.csproj": {
-                "projectPath": "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymServices\\GymServices.csproj"
+              "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymServices\\GymServices.csproj": {
+                "projectPath": "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymServices\\GymServices.csproj"
               }
             }
           }
@@ -196,24 +196,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymServices\\GymServices.csproj": {
+    "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymServices\\GymServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymServices\\GymServices.csproj",
+        "projectUniqueName": "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymServices\\GymServices.csproj",
         "projectName": "GymServices",
-        "projectPath": "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymServices\\GymServices.csproj",
-        "packagesPath": "C:\\Users\\AbdallaKhalil\\.nuget\\packages\\",
-        "outputPath": "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymServices\\obj\\",
+        "projectPath": "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymServices\\GymServices.csproj",
+        "packagesPath": "C:\\Users\\Sara Ahmed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AbdallaKhalil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sara Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -228,8 +228,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymData\\GymData.csproj": {
-                "projectPath": "G:\\A.O.C\\ITI\\C#\\GymMSWF\\GymData\\GymData.csproj"
+              "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymData\\GymData.csproj": {
+                "projectPath": "C:\\Users\\Sara Ahmed\\Desktop\\Rawan\\C#-Project\\GymMSWF\\GymData\\GymData.csproj"
               }
             }
           }
@@ -265,7 +265,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

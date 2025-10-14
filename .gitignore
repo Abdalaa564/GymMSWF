@@ -1,5 +1,79 @@
+# Visual Studio files
 .vs/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Visual Studio cache/options directory
+.vs/
+
+# MSTest test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Local user-specific files
+*.rsuser
+*.userprefs
+
+# Auto-generated files
+[Mm]igration/*.cs
+
+# CodeRush personal settings
+.cr/
+
+# Python Tools for Visual Studio (PTVS)
+pycache/
+*.pyc
+
+# JetBrains Rider
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local History for Visual Studio
+.localhistory/
+
+# Backup folder
+_Backups/
+
+# VS Code
+.vscode/
+
+# Rider
+*.sln.iml
+
+# Package Manager
+packages/
+
+# Resharper
+_ReSharper.*
+.ReSharper
+
+# Help files
+*.html
+*.chm
+
+# Environment-specific appsettings
+appsettings.*.json
+<<<<<<< HEAD
+!appsettings.json
+=======
+!appsettings.json
+>>>>>>> RamizBranch

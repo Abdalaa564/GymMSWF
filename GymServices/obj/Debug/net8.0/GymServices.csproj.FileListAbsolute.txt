@@ -14,3 +14,19 @@ G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\refint\GymServices.dll
 G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.pdb
 G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\ref\GymServices.dll
 G:\A.O.C\ITI\C#\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.sourcelink.json
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\bin\Debug\net8.0\GymServices.deps.json
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\bin\Debug\net8.0\GymServices.dll
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\bin\Debug\net8.0\GymServices.pdb
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\bin\Debug\net8.0\GymData.dll
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\bin\Debug\net8.0\GymData.pdb
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.csproj.AssemblyReference.cache
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.AssemblyInfoInputs.cache
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.AssemblyInfo.cs
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.csproj.CoreCompileInputs.cache
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.sourcelink.json
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\obj\Debug\net8.0\GymServi.F4757868.Up2Date
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.dll
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\obj\Debug\net8.0\refint\GymServices.dll
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\obj\Debug\net8.0\GymServices.pdb
+C:\Users\Sara Ahmed\Desktop\Rawan\C#-Project\GymMSWF\GymServices\obj\Debug\net8.0\ref\GymServices.dll
