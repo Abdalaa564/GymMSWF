@@ -12,7 +12,7 @@ namespace GymData.Models
         [Key]
         public int pack_id { get; set; }
 
-        public int ins_id { get; set; }
+        public int? ins_id { get; set; }
         public string pack_title { get; set; } = string.Empty;
         public decimal pack_price { get; set; }
         public string pack_desc { get; set; } = string.Empty;

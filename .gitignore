@@ -72,7 +72,6 @@ _ReSharper.*
 
 # Environment-specific appsettings
 appsettings.*.json
-!appsettings.json
 
 # Build outputs
 bin/
@@ -83,3 +82,5 @@ obj/
 *.cache
 "bin/" 
 "obj/" 
+
+
