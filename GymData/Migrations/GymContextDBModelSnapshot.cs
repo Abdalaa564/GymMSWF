@@ -108,6 +108,14 @@ namespace GymData.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ins_id"));
 
+                    b.Property<string>("ins_FName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ins_LName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("ins_birth")
                         .HasColumnType("datetime2");
 
@@ -122,15 +130,18 @@ namespace GymData.Migrations
                     b.Property<string>("ins_img")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ins_name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("ins_pass")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ins_phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ins_salary")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ins_title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

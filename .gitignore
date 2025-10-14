@@ -5,6 +5,7 @@
 *.userosscache
 *.sln.docstates
 
+<<<<<<< HEAD
 # Build results
 [Bb]in/
 [Oo]bj/
@@ -84,3 +85,16 @@ obj/
 "obj/" 
 
 
+=======
+# Build directories
+bin/
+obj/
+
+# Other temporary or local files
+*.cache
+*.dll
+*.pdb
+*.exe
+*.log
+*.db
+>>>>>>> mennatullah

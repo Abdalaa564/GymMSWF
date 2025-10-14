@@ -12,7 +12,13 @@ namespace GymData.Models
         [Key]
         public int ins_id { get; set; }
 
-        public string ins_name { get; set; } = string.Empty;
+        public string ins_FName { get; set; } = string.Empty;
+        public string ins_LName { get; set; } = string.Empty;
+        public int ins_salary { get; set; }
+
+        public string ins_title { get; set; } = string.Empty;
+
+
         public string ins_phone { get; set; } = string.Empty;
         public string ins_email { get; set; } = string.Empty;
         public string ins_gender { get; set; } = string.Empty;

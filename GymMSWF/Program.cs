@@ -13,9 +13,11 @@ namespace GymMSWF
             ApplicationConfiguration.Initialize();
 
 
-            Application.Run(new InstructorForm());
 
+        
             //Application.Run(new Packages());
+
+            Application.Run(new InstructorForm());
 
         }
     }
