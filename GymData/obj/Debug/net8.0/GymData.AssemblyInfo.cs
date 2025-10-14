@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GymData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+faaa028bb36d598d50dc86877991551dfe2d3064")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+725b3cf96adcfa24d85cb1e8e8dc8eee1476a0c5")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("GymData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GymData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
