@@ -31,11 +31,12 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             insImage = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             insName = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            insTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             insPhone = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            iconButton2 = new FontAwesome.Sharp.IconButton();
+            editIconButton = new FontAwesome.Sharp.IconButton();
             deleteInsIconButton = new FontAwesome.Sharp.IconButton();
             label1 = new Label();
+            insLname = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)insImage).BeginInit();
             SuspendLayout();
             // 
@@ -43,7 +44,7 @@
             // 
             insImage.Anchor = AnchorStyles.None;
             insImage.ImageRotate = 0F;
-            insImage.Location = new Point(31, 25);
+            insImage.Location = new Point(37, 14);
             insImage.Name = "insImage";
             insImage.ShadowDecoration.CustomizableEdges = customizableEdges1;
             insImage.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -54,55 +55,61 @@
             // insName
             // 
             insName.Anchor = AnchorStyles.None;
+            insName.AutoSize = false;
             insName.BackColor = Color.Transparent;
             insName.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             insName.ForeColor = Color.White;
-            insName.Location = new Point(47, 178);
+            insName.Location = new Point(41, 167);
             insName.Name = "insName";
             insName.Size = new Size(137, 21);
             insName.TabIndex = 3;
             insName.Text = "guna2HtmlLabel1";
-            insName.TextAlignment = ContentAlignment.TopCenter;
+            insName.TextAlignment = ContentAlignment.MiddleCenter;
             // 
-            // guna2HtmlLabel2
+            // insTitle
             // 
-            guna2HtmlLabel2.BackColor = Color.Transparent;
-            guna2HtmlLabel2.ForeColor = Color.White;
-            guna2HtmlLabel2.Location = new Point(53, 222);
-            guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(121, 22);
-            guna2HtmlLabel2.TabIndex = 4;
-            guna2HtmlLabel2.Text = "guna2HtmlLabel2";
-            guna2HtmlLabel2.TextAlignment = ContentAlignment.BottomCenter;
+            insTitle.Anchor = AnchorStyles.None;
+            insTitle.AutoSize = false;
+            insTitle.BackColor = Color.Transparent;
+            insTitle.Font = new Font("Times New Roman", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            insTitle.ForeColor = Color.White;
+            insTitle.Location = new Point(53, 232);
+            insTitle.Name = "insTitle";
+            insTitle.Size = new Size(121, 31);
+            insTitle.TabIndex = 4;
+            insTitle.Text = "guna2HtmlLabel2";
+            insTitle.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // insPhone
             // 
+            insPhone.Anchor = AnchorStyles.None;
+            insPhone.AutoSize = false;
             insPhone.BackColor = Color.Transparent;
             insPhone.Font = new Font("Times New Roman", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             insPhone.ForeColor = Color.White;
-            insPhone.Location = new Point(53, 250);
+            insPhone.Location = new Point(53, 269);
             insPhone.Name = "insPhone";
             insPhone.Size = new Size(125, 21);
             insPhone.TabIndex = 5;
             insPhone.Text = "guna2HtmlLabel3";
-            insPhone.TextAlignment = ContentAlignment.BottomCenter;
+            insPhone.TextAlignment = ContentAlignment.MiddleCenter;
             // 
-            // iconButton2
+            // editIconButton
             // 
-            iconButton2.BackColor = Color.Transparent;
-            iconButton2.FlatAppearance.BorderSize = 0;
-            iconButton2.FlatStyle = FlatStyle.Flat;
-            iconButton2.ForeColor = Color.Transparent;
-            iconButton2.IconChar = FontAwesome.Sharp.IconChar.Refresh;
-            iconButton2.IconColor = Color.FromArgb(2, 172, 195);
-            iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton2.IconSize = 25;
-            iconButton2.Location = new Point(190, 0);
-            iconButton2.Name = "iconButton2";
-            iconButton2.Size = new Size(31, 30);
-            iconButton2.TabIndex = 7;
-            iconButton2.UseVisualStyleBackColor = false;
-            iconButton2.Click += iconButton2_Click;
+            editIconButton.BackColor = Color.Transparent;
+            editIconButton.FlatAppearance.BorderSize = 0;
+            editIconButton.FlatStyle = FlatStyle.Flat;
+            editIconButton.ForeColor = Color.Transparent;
+            editIconButton.IconChar = FontAwesome.Sharp.IconChar.Refresh;
+            editIconButton.IconColor = Color.FromArgb(2, 172, 195);
+            editIconButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            editIconButton.IconSize = 25;
+            editIconButton.Location = new Point(182, 0);
+            editIconButton.Name = "editIconButton";
+            editIconButton.Size = new Size(31, 30);
+            editIconButton.TabIndex = 7;
+            editIconButton.UseVisualStyleBackColor = false;
+            editIconButton.Click += editIconButton_Click;
             // 
             // deleteInsIconButton
             // 
@@ -118,42 +125,59 @@
             deleteInsIconButton.Size = new Size(31, 30);
             deleteInsIconButton.TabIndex = 8;
             deleteInsIconButton.UseVisualStyleBackColor = true;
+            deleteInsIconButton.Click += deleteInsIconButton_Click;
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.BackColor = Color.FromArgb(63, 65, 76);
-            label1.Location = new Point(6, 204);
+            label1.Location = new Point(10, 218);
             label1.Name = "label1";
             label1.Size = new Size(200, 2);
             label1.TabIndex = 9;
+            // 
+            // insLname
+            // 
+            insLname.Anchor = AnchorStyles.None;
+            insLname.AutoSize = false;
+            insLname.BackColor = Color.Transparent;
+            insLname.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            insLname.ForeColor = Color.White;
+            insLname.Location = new Point(41, 194);
+            insLname.Name = "insLname";
+            insLname.Size = new Size(137, 21);
+            insLname.TabIndex = 10;
+            insLname.Text = "guna2HtmlLabel1";
+            insLname.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // InstructorCard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(39, 41, 54);
+            Controls.Add(insLname);
             Controls.Add(label1);
             Controls.Add(deleteInsIconButton);
-            Controls.Add(iconButton2);
+            Controls.Add(editIconButton);
             Controls.Add(insPhone);
-            Controls.Add(guna2HtmlLabel2);
+            Controls.Add(insTitle);
             Controls.Add(insName);
             Controls.Add(insImage);
             Name = "InstructorCard";
-            Size = new Size(213, 285);
+            Size = new Size(213, 302);
             ((System.ComponentModel.ISupportInitialize)insImage).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
         private Guna.UI2.WinForms.Guna2CirclePictureBox insImage;
         private Guna.UI2.WinForms.Guna2HtmlLabel insName;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel insTitle;
         private Guna.UI2.WinForms.Guna2HtmlLabel insPhone;
-        private FontAwesome.Sharp.IconButton iconButton2;
+        private FontAwesome.Sharp.IconButton editIconButton;
         private FontAwesome.Sharp.IconButton deleteInsIconButton;
         private Label label1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel insLname;
     }
 }

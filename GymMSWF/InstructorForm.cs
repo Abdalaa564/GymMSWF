@@ -32,11 +32,46 @@ namespace GymMSWF
                 {
                     Margin = new Padding(10)
                 };
+                card.InstructorDeleted += (deletedCoach) =>
+                {
+                    flowLayoutPanel1.Controls.Remove(card);
+                };
                 flowLayoutPanel1.Controls.Add(card);
             }
 
         }
 
-        
+        private async void searchIconButton_Click(object sender, EventArgs e)
+        {
+            var searchedName = searchTextBox.Text.ToLower();
+            var instructorList = await _coachService.GetAllCoaches();
+            var FilterdInstructors = instructorList.Where(i => i.ins_FName.ToLower().StartsWith(searchedName)).ToList();
+            flowLayoutPanel1.Controls.Clear();
+
+            foreach (var coach in FilterdInstructors)
+            {
+                var card = new InstructorCard(coach)
+                {
+                    Margin = new Padding(10)
+                };
+                flowLayoutPanel1.Controls.Add(card);
+            }
+        }
+
+        private void AddInstructorBTN_Click(object sender, EventArgs e)
+        {
+            var addForm = new AddInstructor();
+            addForm.InstructorAdded += (coach) =>
+            {
+                
+                var card = new InstructorCard(coach)
+                {
+                    Margin = new Padding(10)
+                };
+                flowLayoutPanel1.Controls.Add(card);
+            };
+
+            addForm.ShowDialog();
+        }
     }
 }

@@ -23,9 +23,35 @@ namespace GymServices
             return await _context.instructors.ToListAsync();
         }
 
-        public async Task<List<Instructor>> GetCoaches( int id)
+        //public async Task<List<Instructor>> GetCoaches( int id)
+        //{
+        //    return await _context.instructors.ToListAsync();
+        //}
+        public async Task AddCoach(Instructor coach)
         {
-            return await _context.instructors.ToListAsync();
+            _context.instructors.Add(coach);
+            await _context.SaveChangesAsync();
         }
+        public async Task DeleteCoach(int id)
+        {
+            var coach = await _context.instructors.FindAsync(id);
+            if (coach != null)
+            {
+                _context.instructors.Remove(coach);
+                await _context.SaveChangesAsync();
+            }
+        }
+
+        public async Task UpdateCoach(Instructor coach)
+        {
+            var existing = await _context.instructors.FindAsync(coach.ins_id);
+            if (existing != null)
+            {
+                _context.Entry(existing).CurrentValues.SetValues(coach);
+                await _context.SaveChangesAsync();
+            }
+        }
+
+
     }
 }

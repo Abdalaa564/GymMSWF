@@ -309,7 +309,6 @@ E:\ITI\GymMSWF\GymMSWF\bin\Debug\net8.0-windows\GymData.pdb
 E:\ITI\GymMSWF\GymMSWF\bin\Debug\net8.0-windows\GymServices.pdb
 E:\ITI\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.csproj.AssemblyReference.cache
 E:\ITI\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.Dashboard.resources
-E:\ITI\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.Form1.resources
 E:\ITI\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.Properties.Resources.resources
 E:\ITI\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.rg.resources
 E:\ITI\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.csproj.GenerateResource.cache
@@ -326,3 +325,6 @@ E:\ITI\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.genruntimeconfig.cache
 E:\ITI\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\ref\GymMSWF.dll
 E:\ITI\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.InstructorForm.resources
 E:\ITI\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.InstructorCard.resources
+E:\ITI\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.SidebarControl.resources
+E:\ITI\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.AddInstructor.resources
+E:\ITI\GymMSWF\GymMSWF\obj\Debug\net8.0-windows\GymMSWF.EditInstructorForm.resources
