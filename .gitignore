@@ -72,4 +72,8 @@ _ReSharper.*
 
 # Environment-specific appsettings
 appsettings.*.json
+<<<<<<< HEAD
 !appsettings.json
+=======
+!appsettings.json
+>>>>>>> RamizBranch

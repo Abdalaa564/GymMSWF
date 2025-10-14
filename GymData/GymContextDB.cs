@@ -7,8 +7,9 @@ namespace GymData
     public class GymContextDB : DbContext
     {
         public GymContextDB(DbContextOptions<GymContextDB> options) : base(options) { }
+		
 
-        public DbSet<Client> client { get; set; } = null!;
+		public DbSet<Client> client { get; set; } = null!;
         public DbSet<Instructor> instructors { get; set; } = null!;
         public DbSet<Payment> payment { get; set; } = null!;
         public DbSet<Package> package { get; set; } = null!;
