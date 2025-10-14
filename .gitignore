@@ -81,3 +81,5 @@ obj/
 *.exe
 *.pdb
 *.cache
+"bin/" 
+"obj/" 
