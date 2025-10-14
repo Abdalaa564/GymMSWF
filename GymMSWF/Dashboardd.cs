@@ -11,7 +11,7 @@ using System.Windows.Forms.DataVisualization.Charting;
 
 namespace GymMSWF
 {
-    public partial class Dashboardd : UserControl
+    public partial class Dashboardd : Form
     {
         public Dashboardd()
         {

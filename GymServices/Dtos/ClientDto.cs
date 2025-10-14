@@ -18,6 +18,7 @@ namespace GymServices.Dtos
 		public DateTime EndDate { get; set; }
 		public string PackageTitle { get; set; }
 		
+		public string PaymentStatus { get; set; }
 		public bool Paid { get; set; }
 		public string PaymentsAmount { get; set; } = string.Empty;
 		public string PaymentType { get; set; } = string.Empty;

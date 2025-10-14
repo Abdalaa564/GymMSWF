@@ -18,6 +18,12 @@ namespace GymMSWF
             InitializeComponent();
             var context = DbContext.CreateDbContext();
             _coachService = new CoachService(context);
+
+            //this.Width = AppSettings.FormWidth;
+
+
+            //this.MinimumSize = new Size(AppSettings.FormWidth, 0);
+            //this.MaximumSize = new Size(AppSettings.FormWidth, 0);
         }
 
         private async void InstructorForm_Load(object sender, EventArgs e)

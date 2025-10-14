@@ -49,7 +49,7 @@
             TopBarPanel.Dock = DockStyle.Top;
             TopBarPanel.Location = new Point(0, 0);
             TopBarPanel.Name = "TopBarPanel";
-            TopBarPanel.Size = new Size(1247, 69);
+            TopBarPanel.Size = new Size(1178, 69);
             TopBarPanel.TabIndex = 0;
             // 
             // panel1
@@ -99,7 +99,7 @@
             AddPackage.FlatStyle = FlatStyle.Flat;
             AddPackage.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             AddPackage.ForeColor = Color.White;
-            AddPackage.Location = new Point(1070, 11);
+            AddPackage.Location = new Point(868, 10);
             AddPackage.Name = "AddPackage";
             AddPackage.Size = new Size(166, 47);
             AddPackage.TabIndex = 1;
@@ -114,19 +114,18 @@
             MainPanel.Dock = DockStyle.Fill;
             MainPanel.Location = new Point(0, 69);
             MainPanel.Name = "MainPanel";
-            MainPanel.Size = new Size(1247, 624);
+            MainPanel.Size = new Size(1178, 0);
             MainPanel.TabIndex = 1;
             // 
             // flowPackages
             // 
             flowPackages.AutoScroll = true;
-            flowPackages.AutoSize = true;
             flowPackages.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             flowPackages.Dock = DockStyle.Fill;
             flowPackages.Location = new Point(0, 0);
             flowPackages.Margin = new Padding(10);
             flowPackages.Name = "flowPackages";
-            flowPackages.Size = new Size(1247, 624);
+            flowPackages.Size = new Size(1178, 0);
             flowPackages.TabIndex = 1;
             // 
             // Packages
@@ -135,11 +134,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(1247, 693);
+            ClientSize = new Size(1178, 0);
             Controls.Add(MainPanel);
             Controls.Add(TopBarPanel);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximumSize = new Size(1200, 0);
+            MinimumSize = new Size(1200, 0);
             Name = "Packages";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Packages";
@@ -148,7 +149,6 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             MainPanel.ResumeLayout(false);
-            MainPanel.PerformLayout();
             ResumeLayout(false);
         }
 

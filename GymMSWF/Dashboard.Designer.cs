@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel8 = new Panel();
+            mainPanel = new Panel();
             panel12 = new Panel();
             label16 = new Label();
             iconButton3 = new FontAwesome.Sharp.IconButton();
@@ -57,7 +57,7 @@
             btnClients = new FontAwesome.Sharp.IconButton();
             btnPackages = new FontAwesome.Sharp.IconButton();
             btnDashboard = new FontAwesome.Sharp.IconButton();
-            panel8.SuspendLayout();
+            mainPanel.SuspendLayout();
             panel12.SuspendLayout();
             panel14.SuspendLayout();
             panel13.SuspendLayout();
@@ -66,16 +66,17 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // panel8
+            // mainPanel
             // 
-            panel8.BackColor = Color.FromArgb(49, 52, 67);
-            panel8.Controls.Add(panel12);
-            panel8.Controls.Add(panel14);
-            panel8.Controls.Add(panel13);
-            panel8.Location = new Point(0, 1);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(793, 514);
-            panel8.TabIndex = 10;
+            mainPanel.BackColor = Color.FromArgb(49, 52, 67);
+            mainPanel.Controls.Add(panel12);
+            mainPanel.Controls.Add(panel14);
+            mainPanel.Controls.Add(panel13);
+            mainPanel.Location = new Point(18, 4);
+            mainPanel.Margin = new Padding(3, 4, 3, 4);
+            mainPanel.Name = "mainPanel";
+            mainPanel.Size = new Size(1100, 800);
+            mainPanel.TabIndex = 10;
             // 
             // panel12
             // 
@@ -84,9 +85,10 @@
             panel12.Controls.Add(iconButton3);
             panel12.Controls.Add(label17);
             panel12.Controls.Add(label18);
-            panel12.Location = new Point(481, 37);
+            panel12.Location = new Point(550, 49);
+            panel12.Margin = new Padding(3, 4, 3, 4);
             panel12.Name = "panel12";
-            panel12.Size = new Size(209, 103);
+            panel12.Size = new Size(239, 137);
             panel12.TabIndex = 8;
             // 
             // label16
@@ -96,9 +98,9 @@
             label16.Cursor = Cursors.Hand;
             label16.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label16.ForeColor = Color.White;
-            label16.Location = new Point(168, 47);
+            label16.Location = new Point(192, 63);
             label16.Name = "label16";
-            label16.Size = new Size(20, 22);
+            label16.Size = new Size(24, 26);
             label16.TabIndex = 4;
             label16.Text = "6";
             // 
@@ -111,9 +113,10 @@
             iconButton3.IconColor = Color.FromArgb(2, 172, 195);
             iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton3.IconSize = 30;
-            iconButton3.Location = new Point(17, 35);
+            iconButton3.Location = new Point(19, 47);
+            iconButton3.Margin = new Padding(3, 4, 3, 4);
             iconButton3.Name = "iconButton3";
-            iconButton3.Size = new Size(54, 42);
+            iconButton3.Size = new Size(62, 56);
             iconButton3.TabIndex = 3;
             iconButton3.TextImageRelation = TextImageRelation.ImageBeforeText;
             iconButton3.UseVisualStyleBackColor = true;
@@ -125,9 +128,9 @@
             label17.Cursor = Cursors.Hand;
             label17.Font = new Font("Times New Roman", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label17.ForeColor = Color.White;
-            label17.Location = new Point(17, 73);
+            label17.Location = new Point(19, 97);
             label17.Name = "label17";
-            label17.Size = new Size(118, 15);
+            label17.Size = new Size(148, 19);
             label17.TabIndex = 2;
             label17.Text = "Each Month at Least";
             // 
@@ -138,9 +141,9 @@
             label18.Cursor = Cursors.Hand;
             label18.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label18.ForeColor = Color.White;
-            label18.Location = new Point(17, 13);
+            label18.Location = new Point(19, 17);
             label18.Name = "label18";
-            label18.Size = new Size(69, 19);
+            label18.Size = new Size(84, 23);
             label18.TabIndex = 1;
             label18.Text = "Revenue";
             // 
@@ -151,9 +154,10 @@
             panel14.Controls.Add(iconButton5);
             panel14.Controls.Add(label23);
             panel14.Controls.Add(label24);
-            panel14.Location = new Point(34, 37);
+            panel14.Location = new Point(39, 49);
+            panel14.Margin = new Padding(3, 4, 3, 4);
             panel14.Name = "panel14";
-            panel14.Size = new Size(209, 103);
+            panel14.Size = new Size(239, 137);
             panel14.TabIndex = 6;
             // 
             // label22
@@ -163,9 +167,9 @@
             label22.Cursor = Cursors.Hand;
             label22.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label22.ForeColor = Color.White;
-            label22.Location = new Point(168, 47);
+            label22.Location = new Point(192, 63);
             label22.Name = "label22";
-            label22.Size = new Size(20, 22);
+            label22.Size = new Size(24, 26);
             label22.TabIndex = 4;
             label22.Text = "6";
             // 
@@ -178,9 +182,10 @@
             iconButton5.IconColor = Color.FromArgb(2, 172, 195);
             iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton5.IconSize = 30;
-            iconButton5.Location = new Point(17, 35);
+            iconButton5.Location = new Point(19, 47);
+            iconButton5.Margin = new Padding(3, 4, 3, 4);
             iconButton5.Name = "iconButton5";
-            iconButton5.Size = new Size(54, 42);
+            iconButton5.Size = new Size(62, 56);
             iconButton5.TabIndex = 3;
             iconButton5.TextImageRelation = TextImageRelation.ImageBeforeText;
             iconButton5.UseVisualStyleBackColor = true;
@@ -192,9 +197,9 @@
             label23.Cursor = Cursors.Hand;
             label23.Font = new Font("Times New Roman", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label23.ForeColor = Color.White;
-            label23.Location = new Point(17, 73);
+            label23.Location = new Point(19, 97);
             label23.Name = "label23";
-            label23.Size = new Size(96, 15);
+            label23.Size = new Size(120, 19);
             label23.TabIndex = 2;
             label23.Text = "Active Packages";
             // 
@@ -205,9 +210,9 @@
             label24.Cursor = Cursors.Hand;
             label24.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label24.ForeColor = Color.White;
-            label24.Location = new Point(17, 13);
+            label24.Location = new Point(19, 17);
             label24.Name = "label24";
-            label24.Size = new Size(111, 19);
+            label24.Size = new Size(138, 23);
             label24.TabIndex = 1;
             label24.Text = "Total Packages";
             // 
@@ -218,9 +223,10 @@
             panel13.Controls.Add(iconButton4);
             panel13.Controls.Add(label20);
             panel13.Controls.Add(label21);
-            panel13.Location = new Point(257, 37);
+            panel13.Location = new Point(294, 49);
+            panel13.Margin = new Padding(3, 4, 3, 4);
             panel13.Name = "panel13";
-            panel13.Size = new Size(209, 103);
+            panel13.Size = new Size(239, 137);
             panel13.TabIndex = 7;
             // 
             // label19
@@ -230,9 +236,9 @@
             label19.Cursor = Cursors.Hand;
             label19.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label19.ForeColor = Color.White;
-            label19.Location = new Point(168, 47);
+            label19.Location = new Point(192, 63);
             label19.Name = "label19";
-            label19.Size = new Size(20, 22);
+            label19.Size = new Size(24, 26);
             label19.TabIndex = 4;
             label19.Text = "6";
             // 
@@ -245,9 +251,10 @@
             iconButton4.IconColor = Color.FromArgb(2, 172, 195);
             iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton4.IconSize = 30;
-            iconButton4.Location = new Point(17, 35);
+            iconButton4.Location = new Point(19, 47);
+            iconButton4.Margin = new Padding(3, 4, 3, 4);
             iconButton4.Name = "iconButton4";
-            iconButton4.Size = new Size(54, 42);
+            iconButton4.Size = new Size(62, 56);
             iconButton4.TabIndex = 3;
             iconButton4.TextImageRelation = TextImageRelation.ImageBeforeText;
             iconButton4.UseVisualStyleBackColor = true;
@@ -259,9 +266,9 @@
             label20.Cursor = Cursors.Hand;
             label20.Font = new Font("Times New Roman", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label20.ForeColor = Color.White;
-            label20.Location = new Point(17, 73);
+            label20.Location = new Point(19, 97);
             label20.Name = "label20";
-            label20.Size = new Size(140, 15);
+            label20.Size = new Size(181, 19);
             label20.TabIndex = 2;
             label20.Text = "Completed Memberships";
             // 
@@ -272,19 +279,20 @@
             label21.Cursor = Cursors.Hand;
             label21.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label21.ForeColor = Color.White;
-            label21.Location = new Point(17, 13);
+            label21.Location = new Point(19, 17);
             label21.Name = "label21";
-            label21.Size = new Size(148, 19);
+            label21.Size = new Size(182, 23);
             label21.TabIndex = 1;
             label21.Text = "Active Memberships";
             // 
             // panelDashboard
             // 
             panelDashboard.BackColor = Color.FromArgb(49, 52, 67);
-            panelDashboard.Controls.Add(panel8);
-            panelDashboard.Location = new Point(147, 0);
+            panelDashboard.Controls.Add(mainPanel);
+            panelDashboard.Location = new Point(168, 0);
+            panelDashboard.Margin = new Padding(3, 4, 3, 4);
             panelDashboard.Name = "panelDashboard";
-            panelDashboard.Size = new Size(793, 514);
+            panelDashboard.Size = new Size(906, 685);
             panelDashboard.TabIndex = 0;
             // 
             // aa
@@ -299,8 +307,9 @@
             aa.IconFont = FontAwesome.Sharp.IconFont.Auto;
             aa.IconSize = 24;
             aa.Location = new Point(0, 0);
+            aa.Margin = new Padding(3, 4, 3, 4);
             aa.Name = "aa";
-            aa.Size = new Size(150, 70);
+            aa.Size = new Size(180, 93);
             aa.TabIndex = 9;
             aa.TextImageRelation = TextImageRelation.ImageBeforeText;
             aa.UseVisualStyleBackColor = true;
@@ -321,16 +330,17 @@
             panelSidebar.Controls.Add(aa);
             panelSidebar.Dock = DockStyle.Left;
             panelSidebar.Location = new Point(0, 0);
+            panelSidebar.Margin = new Padding(3, 4, 3, 4);
             panelSidebar.Name = "panelSidebar";
-            panelSidebar.Size = new Size(150, 513);
+            panelSidebar.Size = new Size(180, 684);
             panelSidebar.TabIndex = 4;
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources._1a;
-            pictureBox1.Location = new Point(31, 12);
+            pictureBox1.Location = new Point(35, 16);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(70, 50);
+            pictureBox1.Size = new Size(80, 67);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 19;
             pictureBox1.TabStop = false;
@@ -346,9 +356,10 @@
             btnLogout.IconColor = Color.FromArgb(2, 172, 195);
             btnLogout.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnLogout.IconSize = 24;
-            btnLogout.Location = new Point(0, 378);
+            btnLogout.Location = new Point(0, 506);
+            btnLogout.Margin = new Padding(3, 4, 3, 4);
             btnLogout.Name = "btnLogout";
-            btnLogout.Size = new Size(150, 39);
+            btnLogout.Size = new Size(180, 52);
             btnLogout.TabIndex = 18;
             btnLogout.Text = "Logout           ";
             btnLogout.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -365,9 +376,10 @@
             btnAbout.IconColor = Color.FromArgb(2, 172, 195);
             btnAbout.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnAbout.IconSize = 24;
-            btnAbout.Location = new Point(0, 339);
+            btnAbout.Location = new Point(0, 454);
+            btnAbout.Margin = new Padding(3, 4, 3, 4);
             btnAbout.Name = "btnAbout";
-            btnAbout.Size = new Size(150, 39);
+            btnAbout.Size = new Size(180, 52);
             btnAbout.TabIndex = 17;
             btnAbout.Text = "About            ";
             btnAbout.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -385,9 +397,10 @@
             btnFAQ.IconColor = Color.FromArgb(2, 172, 195);
             btnFAQ.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnFAQ.IconSize = 24;
-            btnFAQ.Location = new Point(0, 301);
+            btnFAQ.Location = new Point(0, 403);
+            btnFAQ.Margin = new Padding(3, 4, 3, 4);
             btnFAQ.Name = "btnFAQ";
-            btnFAQ.Size = new Size(150, 38);
+            btnFAQ.Size = new Size(180, 51);
             btnFAQ.TabIndex = 16;
             btnFAQ.Text = "FAQ                ";
             btnFAQ.TextAlign = ContentAlignment.MiddleLeft;
@@ -405,9 +418,10 @@
             btnPayments.IconColor = Color.FromArgb(2, 172, 195);
             btnPayments.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnPayments.IconSize = 24;
-            btnPayments.Location = new Point(0, 263);
+            btnPayments.Location = new Point(0, 352);
+            btnPayments.Margin = new Padding(3, 4, 3, 4);
             btnPayments.Name = "btnPayments";
-            btnPayments.Size = new Size(150, 38);
+            btnPayments.Size = new Size(180, 51);
             btnPayments.TabIndex = 15;
             btnPayments.Text = "Payments        ";
             btnPayments.TextAlign = ContentAlignment.MiddleLeft;
@@ -425,9 +439,10 @@
             btnMemberShips.IconColor = Color.FromArgb(2, 172, 195);
             btnMemberShips.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnMemberShips.IconSize = 24;
-            btnMemberShips.Location = new Point(0, 225);
+            btnMemberShips.Location = new Point(0, 301);
+            btnMemberShips.Margin = new Padding(3, 4, 3, 4);
             btnMemberShips.Name = "btnMemberShips";
-            btnMemberShips.Size = new Size(150, 38);
+            btnMemberShips.Size = new Size(180, 51);
             btnMemberShips.TabIndex = 14;
             btnMemberShips.Text = "MemberShips";
             btnMemberShips.TextAlign = ContentAlignment.MiddleLeft;
@@ -445,14 +460,16 @@
             btnInstructors.IconColor = Color.FromArgb(2, 172, 195);
             btnInstructors.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnInstructors.IconSize = 24;
-            btnInstructors.Location = new Point(0, 187);
+            btnInstructors.Location = new Point(0, 250);
+            btnInstructors.Margin = new Padding(3, 4, 3, 4);
             btnInstructors.Name = "btnInstructors";
-            btnInstructors.Size = new Size(150, 38);
+            btnInstructors.Size = new Size(180, 51);
             btnInstructors.TabIndex = 13;
             btnInstructors.Text = "Instructors  ";
             btnInstructors.TextAlign = ContentAlignment.MiddleLeft;
             btnInstructors.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnInstructors.UseVisualStyleBackColor = true;
+            btnInstructors.Click += btnInstructors_Click;
             // 
             // btnClients
             // 
@@ -465,14 +482,16 @@
             btnClients.IconColor = Color.FromArgb(2, 172, 195);
             btnClients.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnClients.IconSize = 24;
-            btnClients.Location = new Point(0, 149);
+            btnClients.Location = new Point(0, 199);
+            btnClients.Margin = new Padding(3, 4, 3, 4);
             btnClients.Name = "btnClients";
-            btnClients.Size = new Size(150, 38);
+            btnClients.Size = new Size(180, 51);
             btnClients.TabIndex = 12;
             btnClients.Text = "Clients       ";
             btnClients.TextAlign = ContentAlignment.MiddleLeft;
             btnClients.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnClients.UseVisualStyleBackColor = true;
+            btnClients.Click += btnClients_Click;
             // 
             // btnPackages
             // 
@@ -485,14 +504,16 @@
             btnPackages.IconColor = Color.FromArgb(2, 172, 195);
             btnPackages.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnPackages.IconSize = 24;
-            btnPackages.Location = new Point(0, 111);
+            btnPackages.Location = new Point(0, 148);
+            btnPackages.Margin = new Padding(3, 4, 3, 4);
             btnPackages.Name = "btnPackages";
-            btnPackages.Size = new Size(150, 38);
+            btnPackages.Size = new Size(180, 51);
             btnPackages.TabIndex = 11;
             btnPackages.Text = "Packages    ";
             btnPackages.TextAlign = ContentAlignment.MiddleLeft;
             btnPackages.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnPackages.UseVisualStyleBackColor = true;
+            btnPackages.Click += btnPackages_Click;
             // 
             // btnDashboard
             // 
@@ -505,9 +526,10 @@
             btnDashboard.IconColor = Color.FromArgb(2, 172, 195);
             btnDashboard.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnDashboard.IconSize = 24;
-            btnDashboard.Location = new Point(0, 70);
+            btnDashboard.Location = new Point(0, 93);
+            btnDashboard.Margin = new Padding(3, 4, 3, 4);
             btnDashboard.Name = "btnDashboard";
-            btnDashboard.Size = new Size(150, 41);
+            btnDashboard.Size = new Size(180, 55);
             btnDashboard.TabIndex = 10;
             btnDashboard.Text = "Dashboard    ";
             btnDashboard.TextAlign = ContentAlignment.MiddleLeft;
@@ -517,14 +539,16 @@
             // 
             // Dashboard
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(939, 513);
+            BackColor = Color.FromArgb(49, 52, 67);
+            ClientSize = new Size(1314, 684);
             Controls.Add(panelSidebar);
             Controls.Add(panelDashboard);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Dashboard";
             Text = "RAMR";
-            panel8.ResumeLayout(false);
+            mainPanel.ResumeLayout(false);
             panel12.ResumeLayout(false);
             panel12.PerformLayout();
             panel14.ResumeLayout(false);
@@ -538,7 +562,7 @@
         }
 
         #endregion
-        private Panel panel8;
+        private Panel mainPanel;
         private Panel panelDashboard;
         private FontAwesome.Sharp.IconButton aa;
         private Panel panelSidebar;

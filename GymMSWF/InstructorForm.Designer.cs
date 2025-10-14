@@ -16,12 +16,12 @@
 
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             flowLayoutPanel1 = new FlowLayoutPanel();
             AddInstructorBTN = new Guna.UI2.WinForms.Guna2Button();
             searchTextBox = new Guna.UI2.WinForms.Guna2TextBox();
@@ -32,17 +32,16 @@
             // 
             // flowLayoutPanel1
             // 
-            flowLayoutPanel1.AutoScroll = true;
             flowLayoutPanel1.BackColor = Color.FromArgb(49, 52, 67);
             flowLayoutPanel1.Dock = DockStyle.Bottom;
             flowLayoutPanel1.Location = new Point(0, 103);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(958, 542);
+            flowLayoutPanel1.Size = new Size(1482, 542);
             flowLayoutPanel1.TabIndex = 1;
             // 
             // AddInstructorBTN
             // 
-            AddInstructorBTN.CustomizableEdges = customizableEdges7;
+            AddInstructorBTN.CustomizableEdges = customizableEdges1;
             AddInstructorBTN.DisabledState.BorderColor = Color.DarkGray;
             AddInstructorBTN.DisabledState.CustomBorderColor = Color.DarkGray;
             AddInstructorBTN.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -52,7 +51,7 @@
             AddInstructorBTN.ForeColor = Color.White;
             AddInstructorBTN.Location = new Point(770, 12);
             AddInstructorBTN.Name = "AddInstructorBTN";
-            AddInstructorBTN.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            AddInstructorBTN.ShadowDecoration.CustomizableEdges = customizableEdges2;
             AddInstructorBTN.Size = new Size(183, 56);
             AddInstructorBTN.TabIndex = 2;
             AddInstructorBTN.Text = "+ Add Instructor";
@@ -62,7 +61,7 @@
             // 
             searchTextBox.BackColor = Color.FromArgb(39, 41, 54);
             searchTextBox.BorderColor = Color.FromArgb(39, 41, 54);
-            searchTextBox.CustomizableEdges = customizableEdges9;
+            searchTextBox.CustomizableEdges = customizableEdges3;
             searchTextBox.DefaultText = "";
             searchTextBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             searchTextBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -77,7 +76,7 @@
             searchTextBox.Name = "searchTextBox";
             searchTextBox.PlaceholderText = "";
             searchTextBox.SelectedText = "";
-            searchTextBox.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            searchTextBox.ShadowDecoration.CustomizableEdges = customizableEdges4;
             searchTextBox.Size = new Size(250, 35);
             searchTextBox.TabIndex = 3;
             // 
@@ -86,10 +85,10 @@
             guna2Panel1.BackColor = Color.FromArgb(74, 79, 99);
             guna2Panel1.Controls.Add(searchIconButton);
             guna2Panel1.Controls.Add(searchTextBox);
-            guna2Panel1.CustomizableEdges = customizableEdges11;
+            guna2Panel1.CustomizableEdges = customizableEdges5;
             guna2Panel1.Location = new Point(12, 12);
             guna2Panel1.Name = "guna2Panel1";
-            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2Panel1.Size = new Size(298, 45);
             guna2Panel1.TabIndex = 4;
             // 
@@ -113,7 +112,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(49, 52, 67);
-            ClientSize = new Size(958, 645);
+            ClientSize = new Size(1482, 645);
             Controls.Add(guna2Panel1);
             Controls.Add(AddInstructorBTN);
             Controls.Add(flowLayoutPanel1);

@@ -26,10 +26,14 @@ namespace GymMSWF
 			LoadPackages();
 			_existingClient = client;
 
-			if (_existingClient != null)
-				LoadClientData();
+            if (_existingClient != null)
+            {
+                LoadClientData();
+                Addbtn.Text = "Update";
+                Addbtn.FillColor = ColorTranslator.FromHtml("#00BCD4");
 
-		}
+            }
+        }
 		private void LoadClientData()
 		{
 			nameTxt.Text = _existingClient.client_name;
@@ -39,7 +43,7 @@ namespace GymMSWF
 			startDateTime.Value = _existingClient.startDate;
 			endDateTime.Value = _existingClient.endDate;
 			packagecombo.SelectedValue = _existingClient.pack_id;
-			paidRadio.Checked = _existingClient.ispaid;
+			
 		}
 
 		private async void LoadPackages()
@@ -62,7 +66,6 @@ namespace GymMSWF
 				_existingClient.startDate = startDateTime.Value;
 				_existingClient.endDate = endDateTime.Value;
 				_existingClient.pack_id = (int)packagecombo.SelectedValue;
-				_existingClient.ispaid = paidRadio.Checked;
 
 				await _clientService.UpdateClient(_existingClient);
 			}
@@ -77,7 +80,7 @@ namespace GymMSWF
 					phone = phoneTxt.Text,
 					startDate = startDateTime.Value,
 					endDate = endDateTime.Value,
-					ispaid = paidRadio.Checked,
+					
 					pack_id = (int)packagecombo.SelectedValue
 				};
 

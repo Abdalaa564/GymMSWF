@@ -56,9 +56,9 @@ namespace GymMSWF
 		{
 			await LoadClients();
 
-			Addbtn.Text = "Update";
-			Addbtn.FillColor = ColorTranslator.FromHtml("#00BCD4");
-			AmountTxt.Text = payment.amount.ToString();
+            Addbtn.Text = "Update";
+            Addbtn.FillColor = Color.FromArgb(2, 172, 195);
+            AmountTxt.Text = payment.amount.ToString();
 			PTypeCombo.Text = payment.payment_type;
 			PStatusCombo.Text = payment.payment_status;
 			CreatedAtTime.Value = payment.created_at;

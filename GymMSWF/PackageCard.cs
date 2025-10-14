@@ -40,13 +40,12 @@ namespace GymMSWF
         {
             using (EditPackageForm editForm = new EditPackageForm(_packageId))
             {
-
                 if (editForm.ShowDialog() == DialogResult.OK)
                 {
                     var updated = editForm.UpdatedPackage;
                     if (updated != null)
                     {
-                       
+
                         lblName.Text = updated.pack_title;
                         lblPrice.Text = $"${updated.pack_price} USD/package";
                         lblSessions.Text = $"{updated.pack_sessionsCount} sessions";
@@ -59,11 +58,19 @@ namespace GymMSWF
                                 pictureBox1.Image = new Bitmap(img);
                             }
                         }
+
+
+                        var parent = this.FindForm() as Packages;
+                        if (parent != null)
+                        {
+                            var index = parent._allPackages.FindIndex(p => p.pack_id == updated.pack_id);
+                            if (index >= 0)
+                            {
+                                parent._allPackages[index] = updated;
+                            }
+                        }
                     }
-
-                   
                 }
-
             }
         }
 

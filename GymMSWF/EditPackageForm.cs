@@ -63,6 +63,7 @@ namespace GymMSWF
 
                 if (comboEditInstructor.SelectedValue != null)
                 {
+                    //edit this
                     _package.ins_id = (int)comboEditInstructor.SelectedValue;
                 }
 
@@ -98,7 +99,7 @@ namespace GymMSWF
             var instructors = context.instructors.ToList();
 
             comboEditInstructor.DataSource = instructors;
-            comboEditInstructor.DisplayMember = "ins_name";
+            comboEditInstructor.DisplayMember = "FullName";
             comboEditInstructor.ValueMember = "ins_id";
 
             txtTitle.Text = _package.pack_title;

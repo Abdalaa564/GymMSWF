@@ -36,8 +36,8 @@ namespace GymServices
 				   StartDate = s.startDate,
 				   EndDate = s.endDate,
 				   PackageTitle = s.Package.pack_title,
-				   Paid = s.ispaid,
-				   PaymentsAmount = string.Join(", ", s.Payments.Select(p => p.amount.ToString("C"))),
+				   PaymentStatus = string.Join(", ", s.Payments.Select(p => p.payment_status)),
+                   PaymentsAmount = string.Join(", ", s.Payments.Select(p => p.amount.ToString("C"))),
 				   PaymentType = string.Join(", ", s.Payments.Select(p => p.payment_type))
 			   })
 			   .ToListAsync();

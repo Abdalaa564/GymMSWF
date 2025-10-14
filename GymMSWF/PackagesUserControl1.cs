@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GymMSWF
 {
-    public partial class About : Form
+    public partial class PackagesUserControl1 : UserControl
     {
-        public About()
+        public PackagesUserControl1()
         {
             InitializeComponent();
         }

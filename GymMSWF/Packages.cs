@@ -14,13 +14,18 @@ namespace GymMSWF
     public partial class Packages : Form
     {
         private readonly PackageService _packageService;
-        private List<GymData.Models.Package> _allPackages;
+        public List<GymData.Models.Package> _allPackages;
         public Packages()
         {
             InitializeComponent();
 
             var context = DbContext.CreateDbContext();
             _packageService = new PackageService(context);
+            //this.Width = AppSettings.FormWidth;
+
+           
+            //this.MinimumSize = new Size(AppSettings.FormWidth, 0);
+            //this.MaximumSize = new Size(AppSettings.FormWidth, 0);
         }
 
 

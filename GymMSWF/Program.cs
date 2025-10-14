@@ -1,5 +1,12 @@
+using System.IO.Packaging;
+
 namespace GymMSWF
 {
+    //public static class AppSettings
+    //{
+    //    public static int FormWidth = 1800; // ????? ??????
+    //}
+
     internal static class Program
     {
         /// <summary>
@@ -15,9 +22,9 @@ namespace GymMSWF
 
 
         
-            //Application.Run(new Packages());
+            Application.Run(new Dashboard());
 
-            Application.Run(new InstructorForm());
+          //  Application.Run(new InstructorForm());
 
         }
     }

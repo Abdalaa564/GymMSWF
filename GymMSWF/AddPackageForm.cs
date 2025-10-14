@@ -31,7 +31,7 @@ namespace GymMSWF
             var instructors = _context.instructors.ToList();
 
             comboInstructors.DataSource = instructors;
-            comboInstructors.DisplayMember = "ins_name";
+            comboInstructors.DisplayMember = "FullName";
             comboInstructors.ValueMember = "ins_id";
 
 
