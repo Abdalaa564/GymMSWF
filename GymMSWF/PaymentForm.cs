@@ -38,17 +38,6 @@ namespace GymMSWF
 			}).ToList();
 
 			paymentData.DataSource = data;
-
-			// ضبط عرض الأعمدة
-			paymentData.Columns["ID"].HeaderText = "Payment ID";
-			paymentData.Columns["ClientName"].HeaderText = "Client Name";
-			paymentData.Columns["Type"].HeaderText = "Payment Type";
-			paymentData.Columns["Amount"].HeaderText = "Amount";
-			paymentData.Columns["Date"].HeaderText = "Date";
-			paymentData.Columns["Status"].HeaderText = "Status";
-
-			paymentData.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-			paymentData.RowHeadersVisible = false;
 		}
 		private async void Payment_Load(object sender, EventArgs e)
 		{

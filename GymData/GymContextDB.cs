@@ -14,26 +14,28 @@ namespace GymData
         public DbSet<Payment> payment { get; set; } = null!;
         public DbSet<Package> package { get; set; } = null!;
         public DbSet<Employee> employees { get; set; } = null!;
+        public DbSet<Attendance> Attendances { get; set; }
+        public DbSet<FinanceRecord> FinanceRecords { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            // 🔗 Client → Package (many-to-one)
+            //  Client → Package (many-to-one)
             modelBuilder.Entity<Client>()
                 .HasOne(c => c.Package)
                 .WithMany(p => p.Members)
                 .HasForeignKey(c => c.pack_id)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // 🔗 Payment → Client (many-to-one)
+            //  Payment → Client (many-to-one)
             modelBuilder.Entity<Payment>()
                 .HasOne(p => p.Client)
                 .WithMany(c => c.Payments)
                 .HasForeignKey(p => p.client_id)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // 🔗 Package → Instructor (many-to-one)
+            //  Package → Instructor (many-to-one)
             modelBuilder.Entity<Package>()
                 .HasOne(p => p.Instructor)
                 .WithMany(i => i.Packages)
@@ -47,6 +49,32 @@ namespace GymData
             modelBuilder.Entity<Payment>()
                 .Property(p => p.amount)
                 .HasPrecision(18, 2);
+
+            // Attendance → Client (many-to-one)
+            modelBuilder.Entity<Attendance>()
+                .HasOne(a => a.Client)
+                .WithMany()
+                .HasForeignKey(a => a.MemberId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // FinanceRecord → Employee (many-to-one)
+            modelBuilder.Entity<FinanceRecord>()
+                .HasOne(f => f.Employee)
+                .WithMany()
+                .HasForeignKey(f => f.EmployeeId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<FinanceRecord>()
+                .Property(f => f.ScheduledAmount)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<FinanceRecord>()
+                .Property(f => f.PaidAmount)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<FinanceRecord>()
+                .Property(f => f.Notes)
+                .HasMaxLength(300);
         }
 
     }

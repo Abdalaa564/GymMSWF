@@ -50,7 +50,7 @@
             panelAbout.Controls.Add(panel3);
             panelAbout.Location = new Point(1, 1);
             panelAbout.Name = "panelAbout";
-            panelAbout.Size = new Size(793, 514);
+            panelAbout.Size = new Size(940, 514);
             panelAbout.TabIndex = 1;
             // 
             // panel3
@@ -66,7 +66,7 @@
             panel3.Controls.Add(label3);
             panel3.Controls.Add(label1);
             panel3.Controls.Add(label2);
-            panel3.Location = new Point(171, 155);
+            panel3.Location = new Point(235, 155);
             panel3.Name = "panel3";
             panel3.Size = new Size(405, 226);
             panel3.TabIndex = 2;
@@ -220,7 +220,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(795, 514);
+            ClientSize = new Size(934, 514);
             Controls.Add(panelAbout);
             Name = "About";
             Text = "About";

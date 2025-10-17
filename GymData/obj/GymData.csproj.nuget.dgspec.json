@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ITI\\GymMSWF\\GymData\\GymData.csproj": {}
+    "C:\\Users\\AbdallaKhalil\\Desktop\\GymMSWF\\GymMSWF\\GymData\\GymData.csproj": {}
   },
   "projects": {
-    "E:\\ITI\\GymMSWF\\GymData\\GymData.csproj": {
+    "C:\\Users\\AbdallaKhalil\\Desktop\\GymMSWF\\GymMSWF\\GymData\\GymData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ITI\\GymMSWF\\GymData\\GymData.csproj",
+        "projectUniqueName": "C:\\Users\\AbdallaKhalil\\Desktop\\GymMSWF\\GymMSWF\\GymData\\GymData.csproj",
         "projectName": "GymData",
-        "projectPath": "E:\\ITI\\GymMSWF\\GymData\\GymData.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "E:\\ITI\\GymMSWF\\GymData\\obj\\",
+        "projectPath": "C:\\Users\\AbdallaKhalil\\Desktop\\GymMSWF\\GymMSWF\\GymData\\GymData.csproj",
+        "packagesPath": "C:\\Users\\AbdallaKhalil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AbdallaKhalil\\Desktop\\GymMSWF\\GymMSWF\\GymData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AbdallaKhalil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,25 +56,25 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[9.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[9.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[9.0.10, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[9.0.10, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[9.0.10, )"
             }
           },
           "imports": [
@@ -94,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

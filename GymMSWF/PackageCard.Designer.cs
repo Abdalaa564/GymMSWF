@@ -43,7 +43,7 @@
             pictureBox1.Dock = DockStyle.Top;
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(355, 216);
+            pictureBox1.Size = new Size(280, 216);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -55,7 +55,7 @@
             lblName.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblName.ForeColor = Color.White;
             lblName.ImageAlign = ContentAlignment.MiddleLeft;
-            lblName.Location = new Point(70, 242);
+            lblName.Location = new Point(37, 236);
             lblName.Name = "lblName";
             lblName.Size = new Size(67, 26);
             lblName.TabIndex = 1;
@@ -69,7 +69,7 @@
             lblPrice.Font = new Font("Times New Roman", 10.8F);
             lblPrice.ForeColor = Color.White;
             lblPrice.ImageAlign = ContentAlignment.MiddleLeft;
-            lblPrice.Location = new Point(70, 294);
+            lblPrice.Location = new Point(37, 288);
             lblPrice.Name = "lblPrice";
             lblPrice.Size = new Size(51, 20);
             lblPrice.TabIndex = 2;
@@ -83,7 +83,7 @@
             lblSessions.Font = new Font("Times New Roman", 10.8F);
             lblSessions.ForeColor = Color.White;
             lblSessions.ImageAlign = ContentAlignment.MiddleLeft;
-            lblSessions.Location = new Point(70, 331);
+            lblSessions.Location = new Point(37, 325);
             lblSessions.Name = "lblSessions";
             lblSessions.Size = new Size(51, 20);
             lblSessions.TabIndex = 3;
@@ -95,10 +95,10 @@
             lblDescription.Font = new Font("Times New Roman", 10.8F);
             lblDescription.ForeColor = Color.White;
             lblDescription.ImageAlign = ContentAlignment.MiddleLeft;
-            lblDescription.Location = new Point(70, 366);
+            lblDescription.Location = new Point(37, 354);
             lblDescription.MaximumSize = new Size(0, 230);
             lblDescription.Name = "lblDescription";
-            lblDescription.Size = new Size(263, 92);
+            lblDescription.Size = new Size(186, 92);
             lblDescription.TabIndex = 4;
             lblDescription.Text = "label1";
             // 
@@ -110,7 +110,7 @@
             DeletePackage.IconColor = Color.FromArgb(4, 165, 188);
             DeletePackage.IconFont = FontAwesome.Sharp.IconFont.Auto;
             DeletePackage.IconSize = 25;
-            DeletePackage.Location = new Point(317, 452);
+            DeletePackage.Location = new Point(240, 421);
             DeletePackage.Name = "DeletePackage";
             DeletePackage.Size = new Size(37, 45);
             DeletePackage.TabIndex = 5;
@@ -125,7 +125,7 @@
             EditPackage.IconColor = Color.FromArgb(4, 165, 188);
             EditPackage.IconFont = FontAwesome.Sharp.IconFont.Auto;
             EditPackage.IconSize = 25;
-            EditPackage.Location = new Point(3, 452);
+            EditPackage.Location = new Point(3, 421);
             EditPackage.Name = "EditPackage";
             EditPackage.Size = new Size(37, 45);
             EditPackage.TabIndex = 6;
@@ -145,7 +145,7 @@
             Controls.Add(lblName);
             Controls.Add(pictureBox1);
             Name = "PackageCard";
-            Size = new Size(355, 500);
+            Size = new Size(280, 469);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

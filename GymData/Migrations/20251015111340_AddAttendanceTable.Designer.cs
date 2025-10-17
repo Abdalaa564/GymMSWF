@@ -4,6 +4,7 @@ using GymData;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GymData.Migrations
 {
     [DbContext(typeof(GymContextDB))]
-    partial class GymContextDBModelSnapshot : ModelSnapshot
+    [Migration("20251015111340_AddAttendanceTable")]
+    partial class AddAttendanceTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -127,39 +130,6 @@ namespace GymData.Migrations
                     b.HasKey("rep_id");
 
                     b.ToTable("employees");
-                });
-
-            modelBuilder.Entity("GymData.Models.FinanceRecord", b =>
-                {
-                    b.Property<int>("FinanceId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FinanceId"));
-
-                    b.Property<int?>("EmployeeId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Notes")
-                        .HasMaxLength(300)
-                        .HasColumnType("nvarchar(300)");
-
-                    b.Property<decimal>("PaidAmount")
-                        .HasPrecision(18, 2)
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<DateTime>("RecordDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<decimal>("ScheduledAmount")
-                        .HasPrecision(18, 2)
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("FinanceId");
-
-                    b.HasIndex("EmployeeId");
-
-                    b.ToTable("FinanceRecords");
                 });
 
             modelBuilder.Entity("GymData.Models.Instructor", b =>
@@ -301,16 +271,6 @@ namespace GymData.Migrations
                         .IsRequired();
 
                     b.Navigation("Package");
-                });
-
-            modelBuilder.Entity("GymData.Models.FinanceRecord", b =>
-                {
-                    b.HasOne("GymData.Models.Employee", "Employee")
-                        .WithMany()
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Restrict);
-
-                    b.Navigation("Employee");
                 });
 
             modelBuilder.Entity("GymData.Models.Package", b =>

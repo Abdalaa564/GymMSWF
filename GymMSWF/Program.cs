@@ -21,10 +21,11 @@ namespace GymMSWF
 
 
 
-        
-            Application.Run(new Dashboard());
 
-          //  Application.Run(new InstructorForm());
+            LogInForm loginForm = new LogInForm();
+            Application.Run(loginForm);
+
+            //Application.Run(new Dashboardd());
 
         }
     }

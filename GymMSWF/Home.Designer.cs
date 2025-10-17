@@ -1,6 +1,6 @@
 ﻿namespace GymMSWF
 {
-    partial class Dashboard
+    partial class Home
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
-            mainPanel = new Panel();
             panel1 = new Panel();
             label1 = new Label();
             label2 = new Label();
@@ -73,41 +71,13 @@
             iconButton4 = new FontAwesome.Sharp.IconButton();
             label20 = new Label();
             label21 = new Label();
-            panelDashboard = new Panel();
-            aa = new FontAwesome.Sharp.IconButton();
-            panelSidebar = new Panel();
-            pictureBox1 = new PictureBox();
-            btnLogout = new FontAwesome.Sharp.IconButton();
-            btnAbout = new FontAwesome.Sharp.IconButton();
-            btnFAQ = new FontAwesome.Sharp.IconButton();
-            btnPayments = new FontAwesome.Sharp.IconButton();
-            btnMemberShips = new FontAwesome.Sharp.IconButton();
-            btnInstructors = new FontAwesome.Sharp.IconButton();
-            btnClients = new FontAwesome.Sharp.IconButton();
-            btnPackages = new FontAwesome.Sharp.IconButton();
-            btnDashboard = new FontAwesome.Sharp.IconButton();
-            mainPanel.SuspendLayout();
+            mainPanel = new Panel();
             panel1.SuspendLayout();
             panel12.SuspendLayout();
             panel14.SuspendLayout();
             panel13.SuspendLayout();
-            panelDashboard.SuspendLayout();
-            panelSidebar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            mainPanel.SuspendLayout();
             SuspendLayout();
-            // 
-            // mainPanel
-            // 
-            mainPanel.BackColor = Color.FromArgb(49, 52, 67);
-            mainPanel.Controls.Add(panel1);
-            mainPanel.Controls.Add(panel12);
-            mainPanel.Controls.Add(panel14);
-            mainPanel.Controls.Add(panel13);
-            mainPanel.Dock = DockStyle.Fill;
-            mainPanel.Location = new Point(0, 0);
-            mainPanel.Name = "mainPanel";
-            mainPanel.Size = new Size(948, 514);
-            mainPanel.TabIndex = 10;
             // 
             // panel1
             // 
@@ -714,262 +684,28 @@
             label21.TabIndex = 1;
             label21.Text = "Active Memberships";
             // 
-            // panelDashboard
+            // mainPanel
             // 
-            panelDashboard.BackColor = Color.FromArgb(49, 52, 67);
-            panelDashboard.Controls.Add(mainPanel);
-            panelDashboard.Location = new Point(147, 0);
-            panelDashboard.Name = "panelDashboard";
-            panelDashboard.Size = new Size(948, 514);
-            panelDashboard.TabIndex = 0;
+            mainPanel.BackColor = Color.FromArgb(49, 52, 67);
+            mainPanel.Controls.Add(panel1);
+            mainPanel.Controls.Add(panel12);
+            mainPanel.Controls.Add(panel14);
+            mainPanel.Controls.Add(panel13);
+            mainPanel.Dock = DockStyle.Fill;
+            mainPanel.Location = new Point(0, 0);
+            mainPanel.Name = "mainPanel";
+            mainPanel.Size = new Size(934, 481);
+            mainPanel.TabIndex = 11;
             // 
-            // aa
-            // 
-            aa.Dock = DockStyle.Top;
-            aa.FlatAppearance.BorderSize = 0;
-            aa.FlatStyle = FlatStyle.Flat;
-            aa.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            aa.ForeColor = Color.White;
-            aa.IconChar = FontAwesome.Sharp.IconChar._0;
-            aa.IconColor = Color.FromArgb(2, 172, 195);
-            aa.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            aa.IconSize = 24;
-            aa.Location = new Point(0, 0);
-            aa.Name = "aa";
-            aa.Size = new Size(158, 70);
-            aa.TabIndex = 9;
-            aa.TextImageRelation = TextImageRelation.ImageBeforeText;
-            aa.UseVisualStyleBackColor = true;
-            // 
-            // panelSidebar
-            // 
-            panelSidebar.BackColor = Color.FromArgb(39, 41, 54);
-            panelSidebar.Controls.Add(pictureBox1);
-            panelSidebar.Controls.Add(btnLogout);
-            panelSidebar.Controls.Add(btnAbout);
-            panelSidebar.Controls.Add(btnFAQ);
-            panelSidebar.Controls.Add(btnPayments);
-            panelSidebar.Controls.Add(btnMemberShips);
-            panelSidebar.Controls.Add(btnInstructors);
-            panelSidebar.Controls.Add(btnClients);
-            panelSidebar.Controls.Add(btnPackages);
-            panelSidebar.Controls.Add(btnDashboard);
-            panelSidebar.Controls.Add(aa);
-            panelSidebar.Dock = DockStyle.Left;
-            panelSidebar.Location = new Point(0, 0);
-            panelSidebar.Name = "panelSidebar";
-            panelSidebar.Size = new Size(158, 513);
-            panelSidebar.TabIndex = 4;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(31, 12);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(70, 50);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 19;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
-            // 
-            // btnLogout
-            // 
-            btnLogout.Dock = DockStyle.Top;
-            btnLogout.FlatAppearance.BorderSize = 0;
-            btnLogout.FlatStyle = FlatStyle.Flat;
-            btnLogout.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            btnLogout.ForeColor = Color.White;
-            btnLogout.IconChar = FontAwesome.Sharp.IconChar.LockOpen;
-            btnLogout.IconColor = Color.FromArgb(2, 172, 195);
-            btnLogout.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnLogout.IconSize = 24;
-            btnLogout.Location = new Point(0, 378);
-            btnLogout.Name = "btnLogout";
-            btnLogout.Size = new Size(158, 39);
-            btnLogout.TabIndex = 18;
-            btnLogout.Text = "Logout           ";
-            btnLogout.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnLogout.UseVisualStyleBackColor = true;
-            btnLogout.Click += btnLogout_Click;
-            // 
-            // btnAbout
-            // 
-            btnAbout.Dock = DockStyle.Top;
-            btnAbout.FlatAppearance.BorderSize = 0;
-            btnAbout.FlatStyle = FlatStyle.Flat;
-            btnAbout.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            btnAbout.ForeColor = Color.White;
-            btnAbout.IconChar = FontAwesome.Sharp.IconChar.CircleInfo;
-            btnAbout.IconColor = Color.FromArgb(2, 172, 195);
-            btnAbout.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnAbout.IconSize = 24;
-            btnAbout.Location = new Point(0, 339);
-            btnAbout.Name = "btnAbout";
-            btnAbout.Size = new Size(158, 39);
-            btnAbout.TabIndex = 17;
-            btnAbout.Text = "About            ";
-            btnAbout.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnAbout.UseVisualStyleBackColor = true;
-            btnAbout.Click += btnAbout_Click;
-            // 
-            // btnFAQ
-            // 
-            btnFAQ.Dock = DockStyle.Top;
-            btnFAQ.FlatAppearance.BorderSize = 0;
-            btnFAQ.FlatStyle = FlatStyle.Flat;
-            btnFAQ.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            btnFAQ.ForeColor = Color.White;
-            btnFAQ.IconChar = FontAwesome.Sharp.IconChar.CircleQuestion;
-            btnFAQ.IconColor = Color.FromArgb(2, 172, 195);
-            btnFAQ.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnFAQ.IconSize = 24;
-            btnFAQ.Location = new Point(0, 301);
-            btnFAQ.Name = "btnFAQ";
-            btnFAQ.Size = new Size(158, 38);
-            btnFAQ.TabIndex = 16;
-            btnFAQ.Text = "FAQ                ";
-            btnFAQ.TextAlign = ContentAlignment.MiddleLeft;
-            btnFAQ.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnFAQ.UseVisualStyleBackColor = true;
-            // 
-            // btnPayments
-            // 
-            btnPayments.Dock = DockStyle.Top;
-            btnPayments.FlatAppearance.BorderSize = 0;
-            btnPayments.FlatStyle = FlatStyle.Flat;
-            btnPayments.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            btnPayments.ForeColor = Color.White;
-            btnPayments.IconChar = FontAwesome.Sharp.IconChar.CreditCard;
-            btnPayments.IconColor = Color.FromArgb(2, 172, 195);
-            btnPayments.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnPayments.IconSize = 24;
-            btnPayments.Location = new Point(0, 263);
-            btnPayments.Name = "btnPayments";
-            btnPayments.Size = new Size(158, 38);
-            btnPayments.TabIndex = 15;
-            btnPayments.Text = "Payments        ";
-            btnPayments.TextAlign = ContentAlignment.MiddleLeft;
-            btnPayments.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnPayments.UseVisualStyleBackColor = true;
-            btnPayments.Click += btnPayments_Click;
-            // 
-            // btnMemberShips
-            // 
-            btnMemberShips.Dock = DockStyle.Top;
-            btnMemberShips.FlatAppearance.BorderSize = 0;
-            btnMemberShips.FlatStyle = FlatStyle.Flat;
-            btnMemberShips.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            btnMemberShips.ForeColor = Color.White;
-            btnMemberShips.IconChar = FontAwesome.Sharp.IconChar.UserFriends;
-            btnMemberShips.IconColor = Color.FromArgb(2, 172, 195);
-            btnMemberShips.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnMemberShips.IconSize = 24;
-            btnMemberShips.Location = new Point(0, 225);
-            btnMemberShips.Name = "btnMemberShips";
-            btnMemberShips.Size = new Size(158, 38);
-            btnMemberShips.TabIndex = 14;
-            btnMemberShips.Text = "Add Employee";
-            btnMemberShips.TextAlign = ContentAlignment.MiddleLeft;
-            btnMemberShips.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnMemberShips.UseVisualStyleBackColor = true;
-            btnMemberShips.Click += btnMemberShips_Click;
-            // 
-            // btnInstructors
-            // 
-            btnInstructors.Dock = DockStyle.Top;
-            btnInstructors.FlatAppearance.BorderSize = 0;
-            btnInstructors.FlatStyle = FlatStyle.Flat;
-            btnInstructors.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            btnInstructors.ForeColor = Color.White;
-            btnInstructors.IconChar = FontAwesome.Sharp.IconChar.CriticalRole;
-            btnInstructors.IconColor = Color.FromArgb(2, 172, 195);
-            btnInstructors.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnInstructors.IconSize = 24;
-            btnInstructors.Location = new Point(0, 187);
-            btnInstructors.Name = "btnInstructors";
-            btnInstructors.Size = new Size(158, 38);
-            btnInstructors.TabIndex = 13;
-            btnInstructors.Text = "Instructors  ";
-            btnInstructors.TextAlign = ContentAlignment.MiddleLeft;
-            btnInstructors.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnInstructors.UseVisualStyleBackColor = true;
-            btnInstructors.Click += btnInstructors_Click;
-            // 
-            // btnClients
-            // 
-            btnClients.Dock = DockStyle.Top;
-            btnClients.FlatAppearance.BorderSize = 0;
-            btnClients.FlatStyle = FlatStyle.Flat;
-            btnClients.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            btnClients.ForeColor = Color.White;
-            btnClients.IconChar = FontAwesome.Sharp.IconChar.User;
-            btnClients.IconColor = Color.FromArgb(2, 172, 195);
-            btnClients.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnClients.IconSize = 24;
-            btnClients.Location = new Point(0, 149);
-            btnClients.Name = "btnClients";
-            btnClients.Size = new Size(158, 38);
-            btnClients.TabIndex = 12;
-            btnClients.Text = "Clients       ";
-            btnClients.TextAlign = ContentAlignment.MiddleLeft;
-            btnClients.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnClients.UseVisualStyleBackColor = true;
-            btnClients.Click += btnClients_Click;
-            // 
-            // btnPackages
-            // 
-            btnPackages.Dock = DockStyle.Top;
-            btnPackages.FlatAppearance.BorderSize = 0;
-            btnPackages.FlatStyle = FlatStyle.Flat;
-            btnPackages.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            btnPackages.ForeColor = Color.White;
-            btnPackages.IconChar = FontAwesome.Sharp.IconChar.Atom;
-            btnPackages.IconColor = Color.FromArgb(2, 172, 195);
-            btnPackages.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnPackages.IconSize = 24;
-            btnPackages.Location = new Point(0, 111);
-            btnPackages.Name = "btnPackages";
-            btnPackages.Size = new Size(158, 38);
-            btnPackages.TabIndex = 11;
-            btnPackages.Text = "Packages    ";
-            btnPackages.TextAlign = ContentAlignment.MiddleLeft;
-            btnPackages.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnPackages.UseVisualStyleBackColor = true;
-            btnPackages.Click += btnPackages_Click;
-            // 
-            // btnDashboard
-            // 
-            btnDashboard.Dock = DockStyle.Top;
-            btnDashboard.FlatAppearance.BorderSize = 0;
-            btnDashboard.FlatStyle = FlatStyle.Flat;
-            btnDashboard.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold);
-            btnDashboard.ForeColor = Color.White;
-            btnDashboard.IconChar = FontAwesome.Sharp.IconChar.DiceD6;
-            btnDashboard.IconColor = Color.FromArgb(2, 172, 195);
-            btnDashboard.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnDashboard.IconSize = 24;
-            btnDashboard.Location = new Point(0, 70);
-            btnDashboard.Name = "btnDashboard";
-            btnDashboard.Size = new Size(158, 41);
-            btnDashboard.TabIndex = 10;
-            btnDashboard.Text = "Dashboard    ";
-            btnDashboard.TextAlign = ContentAlignment.MiddleLeft;
-            btnDashboard.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnDashboard.UseVisualStyleBackColor = true;
-            btnDashboard.Click += btnDashboard_Click;
-            // 
-            // Dashboard
+            // Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(49, 52, 67);
-            ClientSize = new Size(1098, 513);
-            Controls.Add(panelSidebar);
-            Controls.Add(panelDashboard);
-            Name = "Dashboard";
-            Text = "RAMR";
-            Load += Dashboard_Load;
-            mainPanel.ResumeLayout(false);
+            ClientSize = new Size(934, 481);
+            Controls.Add(mainPanel);
+            Name = "Home";
+            Text = "Home";
+            Load += Home_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel12.ResumeLayout(false);
@@ -978,52 +714,13 @@
             panel14.PerformLayout();
             panel13.ResumeLayout(false);
             panel13.PerformLayout();
-            panelDashboard.ResumeLayout(false);
-            panelSidebar.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            mainPanel.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
-        private Panel mainPanel;
-        private Panel panelDashboard;
-        private FontAwesome.Sharp.IconButton aa;
-        private Panel panelSidebar;
-        private Panel panel12;
-        private Label label16;
-        private FontAwesome.Sharp.IconButton iconButton3;
-        private Label label17;
-        private Label label18;
-        private Panel panel14;
-        private Label label22;
-        private FontAwesome.Sharp.IconButton iconButton5;
-        private Label label23;
-        private Label label24;
-        private Panel panel13;
-        private Label label19;
-        private FontAwesome.Sharp.IconButton iconButton4;
-        private Label label20;
-        private Label label21;
-        private FontAwesome.Sharp.IconButton btnAbout;
-        private FontAwesome.Sharp.IconButton btnFAQ;
-        private FontAwesome.Sharp.IconButton btnPayments;
-        private FontAwesome.Sharp.IconButton btnMemberShips;
-        private FontAwesome.Sharp.IconButton btnInstructors;
-        private FontAwesome.Sharp.IconButton btnClients;
-        private FontAwesome.Sharp.IconButton btnPackages;
-        private FontAwesome.Sharp.IconButton btnDashboard;
-        private FontAwesome.Sharp.IconButton btnLogout;
-        private PictureBox pictureBox1;
+
         private Panel panel1;
-        private FontAwesome.Sharp.IconButton iconButton7;
-        private FontAwesome.Sharp.IconButton iconButton6;
-        private FontAwesome.Sharp.IconButton iconButton2;
-        private FontAwesome.Sharp.IconButton iconButton1;
-        private FontAwesome.Sharp.IconButton iconButton12;
-        private FontAwesome.Sharp.IconButton iconButton11;
-        private FontAwesome.Sharp.IconButton iconButton10;
-        private FontAwesome.Sharp.IconButton iconButton9;
-        private FontAwesome.Sharp.IconButton iconButton8;
         private Label label1;
         private Label label2;
         private Label label3;
@@ -1042,5 +739,30 @@
         private Label JoinDate;
         private Label Package;
         private Label ClientName;
+        private FontAwesome.Sharp.IconButton iconButton12;
+        private FontAwesome.Sharp.IconButton iconButton11;
+        private FontAwesome.Sharp.IconButton iconButton10;
+        private FontAwesome.Sharp.IconButton iconButton9;
+        private FontAwesome.Sharp.IconButton iconButton8;
+        private FontAwesome.Sharp.IconButton iconButton7;
+        private FontAwesome.Sharp.IconButton iconButton6;
+        private FontAwesome.Sharp.IconButton iconButton2;
+        private FontAwesome.Sharp.IconButton iconButton1;
+        private Panel panel12;
+        private Label label16;
+        private FontAwesome.Sharp.IconButton iconButton3;
+        private Label label17;
+        private Label label18;
+        private Panel panel14;
+        private Label label22;
+        private FontAwesome.Sharp.IconButton iconButton5;
+        private Label label23;
+        private Label label24;
+        private Panel panel13;
+        private Label label19;
+        private FontAwesome.Sharp.IconButton iconButton4;
+        private Label label20;
+        private Label label21;
+        private Panel mainPanel;
     }
 }
