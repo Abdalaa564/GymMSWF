@@ -32,11 +32,12 @@
             // 
             // flowLayoutPanel1
             // 
+            flowLayoutPanel1.AutoScroll = true;
             flowLayoutPanel1.BackColor = Color.FromArgb(49, 52, 67);
-            flowLayoutPanel1.Dock = DockStyle.Bottom;
-            flowLayoutPanel1.Location = new Point(0, 103);
+            flowLayoutPanel1.Location = new Point(35, 103);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(1482, 542);
+            flowLayoutPanel1.Padding = new Padding(10);
+            flowLayoutPanel1.Size = new Size(1225, 676);
             flowLayoutPanel1.TabIndex = 1;
             // 
             // AddInstructorBTN
@@ -49,10 +50,10 @@
             AddInstructorBTN.FillColor = Color.FromArgb(74, 169, 81);
             AddInstructorBTN.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             AddInstructorBTN.ForeColor = Color.White;
-            AddInstructorBTN.Location = new Point(770, 12);
+            AddInstructorBTN.Location = new Point(1019, 20);
             AddInstructorBTN.Name = "AddInstructorBTN";
             AddInstructorBTN.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            AddInstructorBTN.Size = new Size(183, 56);
+            AddInstructorBTN.Size = new Size(183, 52);
             AddInstructorBTN.TabIndex = 2;
             AddInstructorBTN.Text = "+ Add Instructor";
             AddInstructorBTN.Click += AddInstructorBTN_Click;
@@ -79,6 +80,7 @@
             searchTextBox.ShadowDecoration.CustomizableEdges = customizableEdges4;
             searchTextBox.Size = new Size(250, 35);
             searchTextBox.TabIndex = 3;
+            searchTextBox.TextChanged += searchTextBox_TextChanged;
             // 
             // guna2Panel1
             // 
@@ -86,7 +88,7 @@
             guna2Panel1.Controls.Add(searchIconButton);
             guna2Panel1.Controls.Add(searchTextBox);
             guna2Panel1.CustomizableEdges = customizableEdges5;
-            guna2Panel1.Location = new Point(12, 12);
+            guna2Panel1.Location = new Point(35, 16);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2Panel1.Size = new Size(298, 45);
@@ -112,11 +114,12 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(49, 52, 67);
-            ClientSize = new Size(1482, 645);
+            ClientSize = new Size(1287, 791);
             Controls.Add(guna2Panel1);
             Controls.Add(AddInstructorBTN);
             Controls.Add(flowLayoutPanel1);
             Name = "InstructorForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "InstructorForm";
             Load += InstructorForm_Load;
             guna2Panel1.ResumeLayout(false);

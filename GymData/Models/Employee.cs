@@ -12,6 +12,8 @@ namespace GymData.Models
         [Key]
         public int rep_id { get; set; }
 
+        public  string  user_name { get; set; }
+        public string role { get; set; }
         public string rep_name { get; set; } = string.Empty;
         public string rep_gender { get; set; } = string.Empty;
         public DateTime rep_birthDate { get; set; }

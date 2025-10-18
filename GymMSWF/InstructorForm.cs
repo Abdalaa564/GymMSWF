@@ -19,11 +19,7 @@ namespace GymMSWF
             var context = DbContext.CreateDbContext();
             _coachService = new CoachService(context);
 
-            //this.Width = AppSettings.FormWidth;
 
-
-            //this.MinimumSize = new Size(AppSettings.FormWidth, 0);
-            //this.MaximumSize = new Size(AppSettings.FormWidth, 0);
         }
 
         private async void InstructorForm_Load(object sender, EventArgs e)
@@ -46,9 +42,11 @@ namespace GymMSWF
 
                 flowLayoutPanel1.Controls.Add(card);
             }
-        }
+            flowLayoutPanel1.PerformLayout();
+            flowLayoutPanel1.Refresh();
 
-        private async void searchIconButton_Click(object sender, EventArgs e)
+        }
+        public async void SearchMethod()
         {
             var searchedName = searchTextBox.Text.ToLower();
             var instructorList = await _coachService.GetAllCoaches();
@@ -68,6 +66,11 @@ namespace GymMSWF
             }
         }
 
+        private  void searchIconButton_Click(object sender, EventArgs e)
+        {
+            SearchMethod();
+        }
+
         private void AddInstructorBTN_Click(object sender, EventArgs e)
         {
             var addForm = new AddInstructor();
@@ -82,6 +85,11 @@ namespace GymMSWF
             };
 
             addForm.ShowDialog();
+        }
+
+        private void searchTextBox_TextChanged(object sender, EventArgs e)
+        {
+            SearchMethod();
         }
     }
 }

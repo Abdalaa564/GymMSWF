@@ -47,10 +47,18 @@ namespace GymMSWF
 		private async Task LoadClients()
 		{
 			var clients = await _clientService.GetAllClients();
-			nameClientCombo.DataSource = clients;
-			nameClientCombo.DisplayMember = "Name";
+            //nameClientCombo.DataSource = clients;
+            //nameClientCombo.DisplayMember = "Name";
+            //nameClientCombo.ValueMember = "Id";
+            var clientsWithoutPayments = clients
+                    .Where(c => string.IsNullOrEmpty(c.PaymentStatus))
+                    .ToList();
+
+            nameClientCombo.DataSource = clientsWithoutPayments;
+            nameClientCombo.DisplayMember = "Name";
 			nameClientCombo.ValueMember = "Id";
-		}
+
+        }
 
 		private async void LoadClientDataAsync(Payment payment)
 		{

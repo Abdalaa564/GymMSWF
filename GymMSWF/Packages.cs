@@ -43,7 +43,9 @@ namespace GymMSWF
                     package.pack_desc,
                     package.pack_img
                 );
-
+                card.Margin = new Padding(10);
+               // card.Width = 250; // خليه مناسب لعرض البانل
+              
                 flowPackages.Controls.Add(card);
             }
         }
