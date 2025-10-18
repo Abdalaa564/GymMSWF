@@ -138,20 +138,48 @@ All members participated in **coding, designing, and testing** different parts o
 ---
 
 ## 📸 Screenshots (Optional)
-<img width="311" height="418" alt="image" src="https://github.com/user-attachments/assets/58b7ca6d-59a3-465a-bdb7-bd985b865b17" />
-<img width="1266" height="601" alt="image" src="https://github.com/user-attachments/assets/b0e449cd-39df-415a-825e-51b4aeebef9a" />
-<img width="1260" height="595" alt="image" src="https://github.com/user-attachments/assets/ec22f553-c7b4-482c-9b8d-30a5a04ae8b4" />
-<img width="688" height="424" alt="image" src="https://github.com/user-attachments/assets/29d79511-130e-4d17-83c7-8f42266a102f" />
-<img width="523" height="532" alt="image" src="https://github.com/user-attachments/assets/43e9da5a-52b8-4bce-a6b2-cb88cca933f6" />
-<img width="1272" height="606" alt="image" src="https://github.com/user-attachments/assets/206470cb-170c-47c9-9067-8f11fd0eb0b3" />
-<img width="624" height="551" alt="image" src="https://github.com/user-attachments/assets/b0899f2c-8408-4e51-ad15-b051a0219306" />
-<img width="697" height="422" alt="image" src="https://github.com/user-attachments/assets/7f8dc3a1-31e0-43d2-b5e1-8f49aae2981a" />
-<img width="438" height="438" alt="image" src="https://github.com/user-attachments/assets/0809c7e3-b1ce-4b47-bbbb-8baf4b6fe5c7" />
-<img width="1262" height="602" alt="image" src="https://github.com/user-attachments/assets/767cdd7a-5402-4cc3-9663-24efaf4c81ac" />
-<img width="619" height="476" alt="image" src="https://github.com/user-attachments/assets/de57e510-4914-4107-9c32-c7a377805199" />
-<img width="1263" height="607" alt="image" src="https://github.com/user-attachments/assets/ddd41556-a024-40b1-a836-e245acb33b53" />
-<img width="1265" height="601" alt="image" src="https://github.com/user-attachments/assets/524f209a-a218-4a08-bd92-17ff9f3c52f4" />
-<img width="657" height="471" alt="image" src="https://github.com/user-attachments/assets/a961718b-d90c-4e45-8886-b65192303474" />
-<img width="1265" height="597" alt="image" src="https://github.com/user-attachments/assets/33f60b68-8217-418b-8c60-b0e5802eb451" />
+
+Here are some screenshots of the **Gym Management System** showing the interface, forms, and features of the application:
+
+---
+
+<div align="center">
+
+<!-- Row 1 -->
+<img src="https://github.com/user-attachments/assets/58b7ca6d-59a3-465a-bdb7-bd985b865b17" width="250" height="340" alt="Login Form" />
+<img src="https://github.com/user-attachments/assets/b0e449cd-39df-415a-825e-51b4aeebef9a" width="400" alt="Dashboard" />
+<img src="https://github.com/user-attachments/assets/ec22f553-c7b4-482c-9b8d-30a5a04ae8b4" width="400" alt="Client Page" />
+
+<br><br>
+
+<!-- Row 2 -->
+<img src="https://github.com/user-attachments/assets/29d79511-130e-4d17-83c7-8f42266a102f" width="300" alt="Instructor Form" />
+<img src="https://github.com/user-attachments/assets/43e9da5a-52b8-4bce-a6b2-cb88cca933f6" width="300" alt="Add Client Form" />
+<img src="https://github.com/user-attachments/assets/206470cb-170c-47c9-9067-8f11fd0eb0b3" width="400" alt="Payment Form" />
+
+<br><br>
+
+<!-- Row 3 -->
+<img src="https://github.com/user-attachments/assets/b0899f2c-8408-4e51-ad15-b051a0219306" width="300" alt="Finance Records" />
+<img src="https://github.com/user-attachments/assets/7f8dc3a1-31e0-43d2-b5e1-8f49aae2981a" width="300" alt="Package Management" />
+<img src="https://github.com/user-attachments/assets/0809c7e3-b1ce-4b47-bbbb-8baf4b6fe5c7" width="250" alt="User Profile" />
+
+<br><br>
+
+<!-- Row 4 -->
+<img src="https://github.com/user-attachments/assets/767cdd7a-5402-4cc3-9663-24efaf4c81ac" width="400" alt="Client List" />
+<img src="https://github.com/user-attachments/assets/de57e510-4914-4107-9c32-c7a377805199" width="300" alt="Attendance Report" />
+<img src="https://github.com/user-attachments/assets/ddd41556-a024-40b1-a836-e245acb33b53" width="400" alt="Instructor List" />
+
+<br><br>
+
+<!-- Row 5 -->
+<img src="https://github.com/user-attachments/assets/524f209a-a218-4a08-bd92-17ff9f3c52f4" width="400" alt="Add Employee" />
+<img src="https://github.com/user-attachments/assets/a961718b-d90c-4e45-8886-b65192303474" width="300" alt="Edit Package" />
+<img src="https://github.com/user-attachments/assets/33f60b68-8217-418b-8c60-b0e5802eb451" width="400" alt="Dashboard Overview" />
+
+</div>
+
+---
 
 
