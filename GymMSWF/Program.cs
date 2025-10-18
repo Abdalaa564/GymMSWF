@@ -25,7 +25,6 @@ namespace GymMSWF
             LogInForm loginForm = new LogInForm();
             Application.Run(loginForm);
 
-            //Application.Run(new Dashboardd());
 
         }
     }

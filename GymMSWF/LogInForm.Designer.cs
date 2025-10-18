@@ -34,12 +34,15 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LogInForm));
             userNameText = new Guna.UI2.WinForms.Guna2TextBox();
             passTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             loginBtn = new Guna.UI2.WinForms.Guna2Button();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // userNameText
@@ -56,7 +59,7 @@
             userNameText.Font = new Font("Times New Roman", 10.2F);
             userNameText.ForeColor = Color.White;
             userNameText.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            userNameText.Location = new Point(12, 136);
+            userNameText.Location = new Point(12, 202);
             userNameText.Margin = new Padding(3, 4, 3, 4);
             userNameText.Name = "userNameText";
             userNameText.PlaceholderForeColor = Color.White;
@@ -80,7 +83,7 @@
             passTextBox.Font = new Font("Times New Roman", 10.2F);
             passTextBox.ForeColor = Color.White;
             passTextBox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            passTextBox.Location = new Point(12, 243);
+            passTextBox.Location = new Point(12, 318);
             passTextBox.Margin = new Padding(3, 4, 3, 4);
             passTextBox.Name = "passTextBox";
             passTextBox.PlaceholderForeColor = Color.White;
@@ -106,7 +109,7 @@
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Times New Roman", 12F);
             guna2HtmlLabel2.ForeColor = Color.White;
-            guna2HtmlLabel2.Location = new Point(12, 106);
+            guna2HtmlLabel2.Location = new Point(12, 151);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             guna2HtmlLabel2.Size = new Size(97, 24);
             guna2HtmlLabel2.TabIndex = 3;
@@ -117,7 +120,7 @@
             guna2HtmlLabel3.BackColor = Color.Transparent;
             guna2HtmlLabel3.Font = new Font("Times New Roman", 12F);
             guna2HtmlLabel3.ForeColor = Color.White;
-            guna2HtmlLabel3.Location = new Point(12, 213);
+            guna2HtmlLabel3.Location = new Point(12, 267);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             guna2HtmlLabel3.Size = new Size(87, 24);
             guna2HtmlLabel3.TabIndex = 4;
@@ -142,12 +145,24 @@
             loginBtn.Text = "Log In";
             loginBtn.Click += loginBtn_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(12, 13);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(89, 72);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 20;
+            pictureBox1.TabStop = false;
+            // 
             // LogInForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(49, 52, 67);
             ClientSize = new Size(433, 555);
+            Controls.Add(pictureBox1);
             Controls.Add(loginBtn);
             Controls.Add(guna2HtmlLabel3);
             Controls.Add(guna2HtmlLabel2);
@@ -155,7 +170,9 @@
             Controls.Add(passTextBox);
             Controls.Add(userNameText);
             Name = "LogInForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "LogInForm";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -168,5 +185,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2Button loginBtn;
+        private PictureBox pictureBox1;
     }
 }

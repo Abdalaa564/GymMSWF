@@ -12,7 +12,6 @@ using System.Windows.Forms;
 
 namespace GymMSWF
 {
-
     public partial class Dashboard : Form
     {
         private readonly bool _isAdmin;
@@ -26,19 +25,25 @@ namespace GymMSWF
 
             var context = DbContext.CreateDbContext();
             _attendanceService = new AttendanceService(context);
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            //mainPanel.AutoScroll = true;
+            //mainPanel.Dock = DockStyle.Fill;
+            //mainPanel.Padding = new Padding(5);
+
         }
+
         private void SetupUI()
         {
             if (!_isAdmin)
             {
-
                 btnInstructors.Visible = false;
                 btnDashboard.Visible = false;
                 btnMemberShips.Visible = false;
-
                 //btnPackages.Visible = false;     
             }
         }
+
         public void LoadForm(Form form)
         {
             mainPanel.Controls.Clear();
@@ -78,7 +83,6 @@ namespace GymMSWF
         {
             LogInForm loginForm = new LogInForm();
             loginForm.Show();
-
             this.Close();
         }
 
@@ -114,6 +118,10 @@ namespace GymMSWF
                 CurrentTime.Text = summary.CurrentAttendanceTime.ToString("hh:mm tt");
             }
         }
-    }
 
+        private void btnFAQ_Click(object sender, EventArgs e)
+        {
+            LoadForm(new FAQ());
+        }
+    }
 }

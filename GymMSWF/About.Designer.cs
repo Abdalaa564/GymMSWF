@@ -49,8 +49,9 @@
             panelAbout.BackColor = Color.FromArgb(49, 52, 67);
             panelAbout.Controls.Add(panel3);
             panelAbout.Location = new Point(1, 1);
+            panelAbout.Margin = new Padding(3, 4, 3, 4);
             panelAbout.Name = "panelAbout";
-            panelAbout.Size = new Size(940, 514);
+            panelAbout.Size = new Size(1074, 685);
             panelAbout.TabIndex = 1;
             // 
             // panel3
@@ -66,9 +67,10 @@
             panel3.Controls.Add(label3);
             panel3.Controls.Add(label1);
             panel3.Controls.Add(label2);
-            panel3.Location = new Point(235, 155);
+            panel3.Location = new Point(269, 183);
+            panel3.Margin = new Padding(3, 4, 3, 4);
             panel3.Name = "panel3";
-            panel3.Size = new Size(405, 226);
+            panel3.Size = new Size(463, 325);
             panel3.TabIndex = 2;
             // 
             // iconButton4
@@ -80,9 +82,10 @@
             iconButton4.IconColor = Color.FromArgb(2, 172, 195);
             iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton4.IconSize = 30;
-            iconButton4.Location = new Point(172, 165);
+            iconButton4.Location = new Point(197, 220);
+            iconButton4.Margin = new Padding(3, 4, 3, 4);
             iconButton4.Name = "iconButton4";
-            iconButton4.Size = new Size(54, 42);
+            iconButton4.Size = new Size(62, 56);
             iconButton4.TabIndex = 9;
             iconButton4.TextImageRelation = TextImageRelation.ImageBeforeText;
             iconButton4.UseVisualStyleBackColor = true;
@@ -96,9 +99,10 @@
             iconButton3.IconColor = Color.FromArgb(2, 172, 195);
             iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton3.IconSize = 30;
-            iconButton3.Location = new Point(93, 165);
+            iconButton3.Location = new Point(106, 220);
+            iconButton3.Margin = new Padding(3, 4, 3, 4);
             iconButton3.Name = "iconButton3";
-            iconButton3.Size = new Size(54, 42);
+            iconButton3.Size = new Size(62, 56);
             iconButton3.TabIndex = 8;
             iconButton3.TextImageRelation = TextImageRelation.ImageBeforeText;
             iconButton3.UseVisualStyleBackColor = true;
@@ -112,9 +116,10 @@
             iconButton2.IconColor = Color.FromArgb(2, 172, 195);
             iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton2.IconSize = 30;
-            iconButton2.Location = new Point(133, 165);
+            iconButton2.Location = new Point(152, 220);
+            iconButton2.Margin = new Padding(3, 4, 3, 4);
             iconButton2.Name = "iconButton2";
-            iconButton2.Size = new Size(54, 42);
+            iconButton2.Size = new Size(62, 56);
             iconButton2.TabIndex = 7;
             iconButton2.TextImageRelation = TextImageRelation.ImageBeforeText;
             iconButton2.UseVisualStyleBackColor = true;
@@ -128,9 +133,10 @@
             iconButton1.IconColor = Color.FromArgb(2, 172, 195);
             iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton1.IconSize = 30;
-            iconButton1.Location = new Point(52, 165);
+            iconButton1.Location = new Point(59, 220);
+            iconButton1.Margin = new Padding(3, 4, 3, 4);
             iconButton1.Name = "iconButton1";
-            iconButton1.Size = new Size(54, 42);
+            iconButton1.Size = new Size(62, 56);
             iconButton1.TabIndex = 6;
             iconButton1.TextImageRelation = TextImageRelation.ImageBeforeText;
             iconButton1.UseVisualStyleBackColor = true;
@@ -144,9 +150,10 @@
             iconButton8.IconColor = Color.FromArgb(2, 172, 195);
             iconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton8.IconSize = 30;
-            iconButton8.Location = new Point(12, 165);
+            iconButton8.Location = new Point(14, 220);
+            iconButton8.Margin = new Padding(3, 4, 3, 4);
             iconButton8.Name = "iconButton8";
-            iconButton8.Size = new Size(54, 42);
+            iconButton8.Size = new Size(62, 56);
             iconButton8.TabIndex = 3;
             iconButton8.TextImageRelation = TextImageRelation.ImageBeforeText;
             iconButton8.UseVisualStyleBackColor = true;
@@ -158,9 +165,9 @@
             label5.Cursor = Cursors.Hand;
             label5.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.White;
-            label5.Location = new Point(17, 42);
+            label5.Location = new Point(19, 56);
             label5.Name = "label5";
-            label5.Size = new Size(215, 19);
+            label5.Size = new Size(272, 23);
             label5.TabIndex = 5;
             label5.Text = "Founded at: October 15th,2025";
             // 
@@ -171,9 +178,9 @@
             label4.Cursor = Cursors.Hand;
             label4.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(17, 71);
+            label4.Location = new Point(19, 95);
             label4.Name = "label4";
-            label4.Size = new Size(146, 19);
+            label4.Size = new Size(178, 23);
             label4.TabIndex = 4;
             label4.Text = "Founded by: RAMR";
             // 
@@ -184,9 +191,9 @@
             label3.Cursor = Cursors.Hand;
             label3.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(17, 100);
+            label3.Location = new Point(19, 133);
             label3.Name = "label3";
-            label3.Size = new Size(270, 19);
+            label3.Size = new Size(341, 23);
             label3.TabIndex = 3;
             label3.Text = "Status: 5-star sport club in 21st century";
             // 
@@ -197,9 +204,9 @@
             label1.Cursor = Cursors.Hand;
             label1.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(17, 129);
+            label1.Location = new Point(19, 172);
             label1.Name = "label1";
-            label1.Size = new Size(159, 19);
+            label1.Size = new Size(198, 23);
             label1.TabIndex = 2;
             label1.Text = "We are in social media";
             // 
@@ -210,18 +217,20 @@
             label2.Cursor = Cursors.Hand;
             label2.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(17, 13);
+            label2.Location = new Point(19, 17);
             label2.Name = "label2";
-            label2.Size = new Size(274, 19);
+            label2.Size = new Size(341, 23);
             label2.TabIndex = 1;
             label2.Text = "Company name: RAMR Sport Club Ltb";
             // 
             // About
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(934, 514);
+            BackColor = Color.FromArgb(49, 52, 67);
+            ClientSize = new Size(1073, 688);
             Controls.Add(panelAbout);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "About";
             Text = "About";
             panelAbout.ResumeLayout(false);

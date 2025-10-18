@@ -17,12 +17,7 @@ namespace GymServices
             _context = employees;
         }
 
-        //public Employee Login(string username, string password)
-        //{
-        //    return _employees.FirstOrDefault(e => e.Username == username && e.Password == password);
-        //}
-
-        // لو هتستخدمي EF Core:
+    
         public Employee? Login(string username, string password)
         {
             return _context.employees

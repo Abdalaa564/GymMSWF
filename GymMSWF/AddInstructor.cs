@@ -7,6 +7,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Input;
@@ -35,6 +36,11 @@ namespace GymMSWF
                 MessageBox.Show("Please Enter First Name");
                 return;
             }
+            if (string.IsNullOrWhiteSpace(LNametextBox.Text))
+            {
+                MessageBox.Show("Please Enter Last Name");
+                return;
+            }
             if (string.IsNullOrWhiteSpace(titletextBox.Text))
             {
                 MessageBox.Show("Please Enter Instructor title");
@@ -43,6 +49,17 @@ namespace GymMSWF
             if (string.IsNullOrWhiteSpace(phonetextBox.Text))
             {
                 MessageBox.Show("Please Enter Instructor phone");
+                return;
+            }
+            if (!string.IsNullOrWhiteSpace(EmailtextBox.Text) &&
+               !Regex.IsMatch(EmailtextBox.Text, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            {
+                MessageBox.Show("Please enter a valid email address.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (!Regex.IsMatch(phonetextBox.Text, @"^\d{8,15}$"))
+            {
+                MessageBox.Show("Phone number must contain only digits (8–15 digits).", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             if (!maleRadioButton.Checked && !femaleRadioButton.Checked)

@@ -43,7 +43,7 @@
             pictureBox1.Dock = DockStyle.Top;
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(280, 216);
+            pictureBox1.Size = new Size(350, 216);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -110,7 +110,7 @@
             DeletePackage.IconColor = Color.FromArgb(4, 165, 188);
             DeletePackage.IconFont = FontAwesome.Sharp.IconFont.Auto;
             DeletePackage.IconSize = 25;
-            DeletePackage.Location = new Point(240, 421);
+            DeletePackage.Location = new Point(313, 401);
             DeletePackage.Name = "DeletePackage";
             DeletePackage.Size = new Size(37, 45);
             DeletePackage.TabIndex = 5;
@@ -125,7 +125,7 @@
             EditPackage.IconColor = Color.FromArgb(4, 165, 188);
             EditPackage.IconFont = FontAwesome.Sharp.IconFont.Auto;
             EditPackage.IconSize = 25;
-            EditPackage.Location = new Point(3, 421);
+            EditPackage.Location = new Point(0, 401);
             EditPackage.Name = "EditPackage";
             EditPackage.Size = new Size(37, 45);
             EditPackage.TabIndex = 6;
@@ -145,7 +145,7 @@
             Controls.Add(lblName);
             Controls.Add(pictureBox1);
             Name = "PackageCard";
-            Size = new Size(280, 469);
+            Size = new Size(350, 437);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

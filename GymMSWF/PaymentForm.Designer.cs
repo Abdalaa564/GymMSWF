@@ -1,24 +1,24 @@
 ﻿namespace GymMSWF
 {
-	partial class PaymentForm
-	{
-		/// <summary>
-		/// Required designer variable.
-		/// </summary>
-		private System.ComponentModel.IContainer components = null;
+    partial class PaymentForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		/// Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-		protected override void Dispose(bool disposing)
-		{
-			if (disposing && (components != null))
-			{
-				components.Dispose();
-			}
-			base.Dispose(disposing);
-		}
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
 
         #region Windows Form Designer generated code
 
@@ -46,77 +46,71 @@
             Deletebtn = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)paymentData).BeginInit();
             SuspendLayout();
-			// 
-			// paymentData
-			// 
-			// إعدادات أساسية
-			paymentData.AllowUserToAddRows = false;
-			paymentData.AllowUserToDeleteRows = false;
-			paymentData.AllowUserToResizeRows = false;
 
-			dataGridViewCellStyle1.BackColor = Color.FromArgb(49, 52, 67);
-			dataGridViewCellStyle1.ForeColor = Color.White;
-			paymentData.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            // 
+            // paymentData
+            // 
+            paymentData.AllowUserToAddRows = false;
+            paymentData.AllowUserToDeleteRows = false;
+            paymentData.AllowUserToResizeRows = false;
 
-			// 🟢 خليها None عشان نتحكم يدوي في عرض الأعمدة
-			paymentData.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None;
-			paymentData.BackgroundColor = Color.FromArgb(49, 52, 67);
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(49, 52, 67);
+            dataGridViewCellStyle1.ForeColor = Color.White;
+            paymentData.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
 
-			// تنسيق الهيدر
-			dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
-			dataGridViewCellStyle2.BackColor = Color.FromArgb(2, 172, 195);
-			dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-			dataGridViewCellStyle2.ForeColor = Color.White;
-			dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-			paymentData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            paymentData.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None;
+            paymentData.BackgroundColor = Color.FromArgb(49, 52, 67);
 
-			// 🟢 قلل ارتفاع الهيدر هنا
-			paymentData.ColumnHeadersHeight = 28;
-			paymentData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(2, 172, 195);
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            paymentData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            paymentData.ColumnHeadersHeight = 28;
+            paymentData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
 
-			// تنسيق الصفوف
-			dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle3.BackColor = Color.FromArgb(49, 52, 67);
-			dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
-			dataGridViewCellStyle3.ForeColor = Color.White;
-			dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(74, 169, 81);
-			dataGridViewCellStyle3.SelectionForeColor = Color.White;
-			dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-			paymentData.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.FromArgb(49, 52, 67);
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(74, 169, 81);
+            dataGridViewCellStyle3.SelectionForeColor = Color.White;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            paymentData.DefaultCellStyle = dataGridViewCellStyle3;
 
-			paymentData.GridColor = Color.FromArgb(49, 52, 67);
-			paymentData.Location = new Point(38, 82);
-			paymentData.Name = "paymentData";
-			paymentData.ReadOnly = true;
-			paymentData.RowHeadersVisible = false;
-			paymentData.RowTemplate.Height = 30;
-			paymentData.Size = new Size(1181, 380);
-			paymentData.TabIndex = 1;
+            paymentData.GridColor = Color.FromArgb(49, 52, 67);
+            paymentData.Location = new Point(38, 82);
+            paymentData.Name = "paymentData";
+            paymentData.ReadOnly = true;
+            paymentData.RowHeadersVisible = false;
+            paymentData.RowTemplate.Height = 30;
+            paymentData.Size = new Size(1181, 380);
+            paymentData.TabIndex = 1;
 
-			// Theme style
-			paymentData.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(49, 52, 67);
-			paymentData.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.White;
-			paymentData.ThemeStyle.BackColor = Color.FromArgb(49, 52, 67);
-			paymentData.ThemeStyle.GridColor = Color.FromArgb(49, 52, 67);
-			paymentData.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(2, 172, 195);
-			paymentData.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-			paymentData.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-			paymentData.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-			paymentData.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-			paymentData.ThemeStyle.HeaderStyle.Height = 28;
-			paymentData.ThemeStyle.ReadOnly = true;
-			paymentData.ThemeStyle.RowsStyle.BackColor = Color.FromArgb(49, 52, 67);
-			paymentData.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-			paymentData.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-			paymentData.ThemeStyle.RowsStyle.ForeColor = Color.White;
-			paymentData.ThemeStyle.RowsStyle.Height = 30;
-			paymentData.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(74, 169, 81);
-			paymentData.ThemeStyle.RowsStyle.SelectionForeColor = Color.White;
+            paymentData.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(49, 52, 67);
+            paymentData.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.White;
+            paymentData.ThemeStyle.BackColor = Color.FromArgb(49, 52, 67);
+            paymentData.ThemeStyle.GridColor = Color.FromArgb(49, 52, 67);
+            paymentData.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(2, 172, 195);
+            paymentData.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            paymentData.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            paymentData.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            paymentData.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            paymentData.ThemeStyle.HeaderStyle.Height = 28;
+            paymentData.ThemeStyle.ReadOnly = true;
+            paymentData.ThemeStyle.RowsStyle.BackColor = Color.FromArgb(49, 52, 67);
+            paymentData.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            paymentData.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            paymentData.ThemeStyle.RowsStyle.ForeColor = Color.White;
+            paymentData.ThemeStyle.RowsStyle.Height = 30;
+            paymentData.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(74, 169, 81);
+            paymentData.ThemeStyle.RowsStyle.SelectionForeColor = Color.White;
 
-			// 
-			// SearchTxt
-			// 
-			SearchTxt.BorderColor = Color.FromArgb(74, 169, 81);
+            // 
+            // SearchTxt
+            // 
+            SearchTxt.BorderColor = Color.FromArgb(74, 169, 81);
             SearchTxt.BorderRadius = 10;
             SearchTxt.CustomizableEdges = customizableEdges1;
             SearchTxt.DefaultText = "";
@@ -139,16 +133,13 @@
             SearchTxt.Size = new Size(400, 45);
             SearchTxt.TabIndex = 4;
             SearchTxt.TextChanged += SearchTxt_TextChanged;
+
             // 
             // Addbtn
             // 
             Addbtn.CustomizableEdges = customizableEdges3;
-            Addbtn.DisabledState.BorderColor = Color.DarkGray;
-            Addbtn.DisabledState.CustomBorderColor = Color.DarkGray;
-            Addbtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            Addbtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             Addbtn.FillColor = Color.FromArgb(74, 169, 81);
-            Addbtn.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Addbtn.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold);
             Addbtn.ForeColor = Color.White;
             Addbtn.Location = new Point(911, 12);
             Addbtn.Name = "Addbtn";
@@ -157,16 +148,13 @@
             Addbtn.TabIndex = 5;
             Addbtn.Text = "+ Add Payment";
             Addbtn.Click += Addbtn_Click;
+
             // 
             // Updatebtn
             // 
             Updatebtn.CustomizableEdges = customizableEdges5;
-            Updatebtn.DisabledState.BorderColor = Color.DarkGray;
-            Updatebtn.DisabledState.CustomBorderColor = Color.DarkGray;
-            Updatebtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            Updatebtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             Updatebtn.FillColor = Color.FromArgb(0, 188, 212);
-            Updatebtn.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Updatebtn.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold);
             Updatebtn.ForeColor = Color.White;
             Updatebtn.Location = new Point(741, 12);
             Updatebtn.Name = "Updatebtn";
@@ -175,16 +163,13 @@
             Updatebtn.TabIndex = 6;
             Updatebtn.Text = "Update";
             Updatebtn.Click += Updatebtn_Click;
+
             // 
             // Deletebtn
             // 
             Deletebtn.CustomizableEdges = customizableEdges7;
-            Deletebtn.DisabledState.BorderColor = Color.DarkGray;
-            Deletebtn.DisabledState.CustomBorderColor = Color.DarkGray;
-            Deletebtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            Deletebtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             Deletebtn.FillColor = Color.Red;
-            Deletebtn.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Deletebtn.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold);
             Deletebtn.ForeColor = Color.White;
             Deletebtn.Location = new Point(571, 12);
             Deletebtn.Name = "Deletebtn";
@@ -193,6 +178,7 @@
             Deletebtn.TabIndex = 7;
             Deletebtn.Text = "Delete";
             Deletebtn.Click += Deletebtn_Click;
+
             // 
             // PaymentForm
             // 
@@ -215,9 +201,9 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2DataGridView paymentData;
-		private Guna.UI2.WinForms.Guna2TextBox SearchTxt;
-		private Guna.UI2.WinForms.Guna2Button Addbtn;
-		private Guna.UI2.WinForms.Guna2Button Updatebtn;
-		private Guna.UI2.WinForms.Guna2Button Deletebtn;
-	}
+        private Guna.UI2.WinForms.Guna2TextBox SearchTxt;
+        private Guna.UI2.WinForms.Guna2Button Addbtn;
+        private Guna.UI2.WinForms.Guna2Button Updatebtn;
+        private Guna.UI2.WinForms.Guna2Button Deletebtn;
+    }
 }

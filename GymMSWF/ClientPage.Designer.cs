@@ -1,24 +1,24 @@
 ﻿namespace GymMSWF
 {
-	partial class ClientPage
-	{
-		/// <summary>
-		/// Required designer variable.
-		/// </summary>
-		private System.ComponentModel.IContainer components = null;
+    partial class ClientPage
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		/// Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-		protected override void Dispose(bool disposing)
-		{
-			if (disposing && (components != null))
-			{
-				components.Dispose();
-			}
-			base.Dispose(disposing);
-		}
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
 
         #region Windows Form Designer generated code
 
@@ -63,12 +63,13 @@
             SearchTxt.ForeColor = Color.White;
             SearchTxt.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             SearchTxt.IconLeft = Properties.Resources.magnifying_glass;
-            SearchTxt.Location = new Point(27, 22);
+            SearchTxt.Location = new Point(31, 30);
+            SearchTxt.Margin = new Padding(3, 4, 3, 4);
             SearchTxt.Name = "SearchTxt";
             SearchTxt.PlaceholderText = "Search client...";
             SearchTxt.SelectedText = "";
             SearchTxt.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            SearchTxt.Size = new Size(350, 34);
+            SearchTxt.Size = new Size(400, 45);
             SearchTxt.TabIndex = 3;
             SearchTxt.TextChanged += SearchTxt_TextChanged;
             // 
@@ -82,11 +83,10 @@
             Addbtn.FillColor = Color.FromArgb(74, 169, 81);
             Addbtn.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Addbtn.ForeColor = Color.White;
-            Addbtn.Location = new Point(816, 24);
-            Addbtn.Margin = new Padding(3, 2, 3, 2);
+            Addbtn.Location = new Point(932, 32);
             Addbtn.Name = "Addbtn";
             Addbtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            Addbtn.Size = new Size(144, 33);
+            Addbtn.Size = new Size(164, 44);
             Addbtn.TabIndex = 2;
             Addbtn.Text = "+ Add Client";
             Addbtn.Click += Addbtn_Click;
@@ -120,14 +120,13 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             ClientData.DefaultCellStyle = dataGridViewCellStyle3;
             ClientData.GridColor = Color.FromArgb(49, 52, 67);
-            ClientData.Location = new Point(12, 94);
-            ClientData.Margin = new Padding(3, 2, 3, 2);
+            ClientData.Location = new Point(12, 126);
             ClientData.Name = "ClientData";
             ClientData.ReadOnly = true;
             ClientData.RowHeadersVisible = false;
             ClientData.RowHeadersWidth = 51;
             ClientData.RowTemplate.Height = 30;
-            ClientData.Size = new Size(1052, 285);
+            ClientData.Size = new Size(1218, 380);
             ClientData.TabIndex = 0;
             ClientData.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(49, 52, 67);
             ClientData.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -161,11 +160,10 @@
             Deletebtn.FillColor = Color.Red;
             Deletebtn.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Deletebtn.ForeColor = Color.White;
-            Deletebtn.Location = new Point(518, 24);
-            Deletebtn.Margin = new Padding(3, 2, 3, 2);
+            Deletebtn.Location = new Point(592, 32);
             Deletebtn.Name = "Deletebtn";
             Deletebtn.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            Deletebtn.Size = new Size(144, 33);
+            Deletebtn.Size = new Size(164, 44);
             Deletebtn.TabIndex = 8;
             Deletebtn.Text = "Delete";
             Deletebtn.Click += Deletebtn_Click;
@@ -180,28 +178,26 @@
             Updatebtn.FillColor = Color.FromArgb(0, 188, 212);
             Updatebtn.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Updatebtn.ForeColor = Color.White;
-            Updatebtn.Location = new Point(667, 23);
-            Updatebtn.Margin = new Padding(3, 2, 3, 2);
+            Updatebtn.Location = new Point(762, 31);
             Updatebtn.Name = "Updatebtn";
             Updatebtn.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            Updatebtn.Size = new Size(144, 33);
+            Updatebtn.Size = new Size(164, 44);
             Updatebtn.TabIndex = 9;
             Updatebtn.Text = "Update";
             Updatebtn.Click += Updatebtn_Click;
             // 
             // ClientPage
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(49, 52, 67);
-            ClientSize = new Size(1087, 406);
+            ClientSize = new Size(1242, 541);
             Controls.Add(Updatebtn);
             Controls.Add(Deletebtn);
             Controls.Add(ClientData);
             Controls.Add(Addbtn);
             Controls.Add(SearchTxt);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Margin = new Padding(3, 2, 3, 2);
             Name = "ClientPage";
             Text = "ClientPage";
             Load += ClientPage_Load;
@@ -211,9 +207,9 @@
 
         #endregion
         private Guna.UI2.WinForms.Guna2TextBox SearchTxt;
-		private Guna.UI2.WinForms.Guna2Button Addbtn;
-		private Guna.UI2.WinForms.Guna2DataGridView ClientData;
-		private Guna.UI2.WinForms.Guna2Button Deletebtn;
-		private Guna.UI2.WinForms.Guna2Button Updatebtn;
-	}
+        private Guna.UI2.WinForms.Guna2Button Addbtn;
+        private Guna.UI2.WinForms.Guna2DataGridView ClientData;
+        private Guna.UI2.WinForms.Guna2Button Deletebtn;
+        private Guna.UI2.WinForms.Guna2Button Updatebtn;
+    }
 }

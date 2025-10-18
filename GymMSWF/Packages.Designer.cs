@@ -86,7 +86,7 @@
             AddPackage.FlatStyle = FlatStyle.Flat;
             AddPackage.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             AddPackage.ForeColor = Color.White;
-            AddPackage.Location = new Point(904, 19);
+            AddPackage.Location = new Point(1025, 19);
             AddPackage.Name = "AddPackage";
             AddPackage.Size = new Size(166, 47);
             AddPackage.TabIndex = 1;
@@ -104,7 +104,7 @@
             MainPanel.Dock = DockStyle.Fill;
             MainPanel.Location = new Point(0, 0);
             MainPanel.Name = "MainPanel";
-            MainPanel.Size = new Size(1178, 692);
+            MainPanel.Size = new Size(1303, 839);
             MainPanel.TabIndex = 1;
             // 
             // flowPackages
@@ -114,16 +114,15 @@
             flowPackages.Location = new Point(70, 103);
             flowPackages.Margin = new Padding(10);
             flowPackages.Name = "flowPackages";
-            flowPackages.Size = new Size(1000, 582);
+            flowPackages.Size = new Size(1173, 700);
             flowPackages.TabIndex = 1;
             // 
             // Packages
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            AutoSize = true;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(1178, 692);
+            ClientSize = new Size(1303, 839);
             Controls.Add(MainPanel);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Icon = (Icon)resources.GetObject("$this.Icon");
