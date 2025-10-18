@@ -125,7 +125,6 @@ All members participated in **coding, designing, and testing** different parts o
 ---
 
 ## 📸 Screenshots (Optional)
-> <img width="388" height="455" alt="image" src="https://github.com/user-attachments/assets/4a3d5abc-9a66-4ae6-be9c-bf36b7bf0c72" />
 <img width="1266" height="601" alt="image" src="https://github.com/user-attachments/assets/b0e449cd-39df-415a-825e-51b4aeebef9a" />
 <img width="688" height="424" alt="image" src="https://github.com/user-attachments/assets/29d79511-130e-4d17-83c7-8f42266a102f" />
 <img width="1272" height="606" alt="image" src="https://github.com/user-attachments/assets/206470cb-170c-47c9-9067-8f11fd0eb0b3" />
