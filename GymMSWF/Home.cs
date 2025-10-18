@@ -24,7 +24,7 @@ namespace GymMSWF
         }
         private void Home_Load(object sender, EventArgs e)
         {
-            int clientId = 2;
+            int clientId = 13;
             var summary = _attendanceService.GetClientAttendanceSummary(clientId);
             if (summary != null)
             {
