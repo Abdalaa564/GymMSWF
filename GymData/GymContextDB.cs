@@ -16,6 +16,7 @@ namespace GymData
         public DbSet<Employee> employees { get; set; } = null!;
         public DbSet<Attendance> Attendances { get; set; }
         public DbSet<FinanceRecord> FinanceRecords { get; set; } = null!;
+        public DbSet<Equipment> Equipments { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -74,6 +75,33 @@ namespace GymData
 
             modelBuilder.Entity<FinanceRecord>()
                 .Property(f => f.Notes)
+                .HasMaxLength(300);
+
+            // Equipment
+            modelBuilder.Entity<Equipment>()
+                .HasOne(e => e.Employee)
+                .WithMany()
+                .HasForeignKey(e => e.EmployeeId)
+                .OnDelete(DeleteBehavior.SetNull);
+
+            modelBuilder.Entity<Equipment>()
+                .Property(e => e.EquipName)
+                .HasMaxLength(100);
+
+            modelBuilder.Entity<Equipment>()
+                .Property(e => e.Category)
+                .HasMaxLength(50);
+
+            modelBuilder.Entity<Equipment>()
+                .Property(e => e.Condition)
+                .HasMaxLength(50);
+
+            modelBuilder.Entity<Equipment>()
+                .Property(e => e.Price)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<Equipment>()
+                .Property(e => e.EquipDescription)
                 .HasMaxLength(300);
         }
 
