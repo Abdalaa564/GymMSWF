@@ -22,8 +22,9 @@ namespace GymMSWF
 
 
 
-            LogInForm loginForm = new LogInForm();
-            Application.Run(loginForm);
+            //LogInForm loginForm = new LogInForm();
+            //Application.Run(loginForm);
+            Application.Run(new EquipmentForm());
 
 
         }
