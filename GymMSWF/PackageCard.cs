@@ -79,7 +79,7 @@ namespace GymMSWF
             
 
             var confirm = MessageBox.Show("Are you sure you want to delete this package?",
-        "Confirm Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    "Confirm Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
             if (confirm == DialogResult.Yes)
             {
@@ -88,11 +88,10 @@ namespace GymMSWF
                     await _packageService.DeletePackageAsync(_packageId);
                     MessageBox.Show("✅ Package deleted successfully!");
 
-                    // نحذف الكارت من الواجهة مباشرة
                     var parent = this.FindForm() as Packages;
                     if (parent != null)
                     {
-                        parent.RemovePackageFromUI(_packageId); // ← استدعاء الميثود اللي فوق
+                        parent.RemovePackageFromUI(_packageId);
                     }
                 }
                 catch (Exception ex)

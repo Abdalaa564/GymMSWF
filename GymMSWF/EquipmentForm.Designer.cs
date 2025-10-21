@@ -37,9 +37,9 @@
             // 
             panel8.BackColor = Color.FromArgb(49, 52, 67);
             panel8.Controls.Add(flowEquipments);
-            panel8.Location = new Point(1, 0);
+            panel8.Location = new Point(0, 0);
             panel8.Name = "panel8";
-            panel8.Size = new Size(1077, 514);
+            panel8.Size = new Size(1080, 514);
             panel8.TabIndex = 12;
             // 
             // flowEquipments
@@ -47,7 +47,7 @@
             flowEquipments.AutoScroll = true;
             flowEquipments.Location = new Point(11, 12);
             flowEquipments.Name = "flowEquipments";
-            flowEquipments.Size = new Size(1046, 471);
+            flowEquipments.Size = new Size(1057, 489);
             flowEquipments.TabIndex = 1;
             // 
             // EquipmentForm

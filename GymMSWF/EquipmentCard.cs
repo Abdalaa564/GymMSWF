@@ -37,15 +37,40 @@ namespace GymMSWF
             EquipDescription.Text = equipment.EquipDescription;
             EmployeeId.Text = equipment.EmployeeId?.ToString() ?? "N/A";
 
-            //if (equipment.EquipImage != null && equipment.EquipImage.Length > 0)
-            //{
-            //    byte[] imageBytes = Convert.FromBase64String(equipment.EquipImage);
+            if (!string.IsNullOrEmpty(equipment.EquipImage))
+            {
+                string imagePath = equipment.EquipImage.Trim();
 
-            //    using (var ms = new MemoryStream(imageBytes))
-            //    {
-            //        EquipImage.Image = Image.FromStream(ms);
-            //    }
-            //}
+                if (File.Exists(imagePath))
+                {
+                    string ext = Path.GetExtension(imagePath).ToLower();
+                    if (ext == ".jpg" || ext == ".jpeg" || ext == ".png" || ext == ".bmp")
+                    {
+                        try
+                        {
+                            EquipImage.SizeMode = PictureBoxSizeMode.Zoom;
+                            using (var tempImage = Image.FromFile(imagePath))
+                            {
+                                EquipImage.Image = new Bitmap(tempImage);
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show($"Error loading image: {ex.Message}");
+                            EquipImage.Image = null;
+                        }
+                    }
+                }
+                else
+                {
+                    EquipImage.SizeMode = PictureBoxSizeMode.Zoom;
+                    MessageBox.Show("Image file not found at: " + equipment.EquipImage.Trim());
+                    EquipImage.Image = null;
+                }
+            }
+
         }
+
+
     }
 }
